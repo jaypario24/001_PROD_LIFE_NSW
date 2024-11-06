@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Tutorial Type --></label>
+    <name>Tutorial_Type__c</name>
+    <picklistValues>
+        <masterLabel>General How-To</masterLabel>
+        <translation><!-- General How-To --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal Processes</masterLabel>
+        <translation><!-- Internal Processes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TS Documents Formatting</masterLabel>
+        <translation><!-- TS Documents Formatting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Titan Formatting</masterLabel>
+        <translation><!-- Titan Formatting --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

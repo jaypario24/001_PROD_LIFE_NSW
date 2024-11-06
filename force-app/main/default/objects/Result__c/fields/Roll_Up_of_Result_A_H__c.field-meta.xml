@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Roll_Up_of_Result_A_H__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    ISBLANK(AMH__c) = FALSE,
+    &quot;AMH: &quot; &amp; TEXT(AMH__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(ANA_Anti_Nuclear_Antibody__c) = FALSE,
+    &quot;ANA - Anti-Nuclear Antibody: &quot; &amp; TEXT(ANA_Anti_Nuclear_Antibody__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Anti_B_2_Glycoprotein_1_Abs__c) = FALSE,
+    &quot;Anti B-2 Glycoprotein 1 Abs: &quot; &amp; TEXT(Anti_B_2_Glycoprotein_1_Abs__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Anti_Thrombin_3_Level__c) = FALSE,
+    &quot;Anti Thrombin 3 Level: &quot; &amp; TEXT(Anti_Thrombin_3_Level__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Anticardiolipin_Abs__c) = FALSE,
+    &quot;Anticardiolipin Abs: &quot; &amp; TEXT(Anticardiolipin_Abs__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Antral_Follicle_Count__c) = FALSE,
+    &quot;Antral Follicle Count: &quot; &amp; TEXT(Antral_Follicle_Count__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(BHCG__c) = FALSE,
+    &quot;BHCG: &quot; &amp; TEXT(BHCG__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(TEXT(Blood_Group__c)) = FALSE,
+    &quot;Blood Group: &quot; &amp; TEXT(Blood_Group__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(CLR_in_mm__c) = FALSE,
+    &quot;CLR (in mm): &quot; &amp; TEXT(CLR_in_mm__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(TEXT(CMV__c)) = FALSE,
+    &quot;CMV: &quot; &amp; TEXT(CMV__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(TEXT(Chlamydia_Urine__c)) = FALSE,
+    &quot;Chlamydia (Urine): &quot; &amp; TEXT(Chlamydia_Urine__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Cystic_Fibrosis_Gene_Testing__c) = FALSE,
+    &quot;Cystic Fibrosis Gene Testing: &quot; &amp; TEXT(Cystic_Fibrosis_Gene_Testing__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(E2__c) = FALSE,
+    &quot;E2: &quot; &amp; TEXT(E2__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(TEXT(FBE__c)) = FALSE,
+    &quot;FBE: &quot; &amp; TEXT(FBE__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(FSH__c) = FALSE,
+    &quot;FSH: &quot; &amp; TEXT(FSH__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Factor_V_leiden_APC__c) = FALSE,
+    &quot;Factor V Leiden (APC): &quot; &amp; TEXT(Factor_V_leiden_APC__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Fasting_Plasma_Homocysteine__c) = FALSE,
+    &quot;Fasting Plasma Homocysteine: &quot; &amp; TEXT(Fasting_Plasma_Homocysteine__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Ferritin__c) = FALSE,
+    &quot;Ferritin: &quot; &amp; TEXT(Ferritin__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Fragile_X_Gene_Sequencing__c) = FALSE,
+    &quot;Fragile X Gene Sequencing: &quot; &amp; TEXT(Fragile_X_Gene_Sequencing__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(TEXT(HIV__c)) = FALSE,
+    &quot;HIV: &quot; &amp; TEXT(HIV__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Heart_Rate__c) = FALSE,
+    &quot;Heart Rate: &quot; &amp; TEXT(Heart_Rate__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(TEXT(Hepatitis_B__c)) = FALSE,
+    &quot;Hepatitis B Serology: &quot; &amp; TEXT(Hepatitis_B__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(TEXT(Hepatitis_C__c)) = FALSE,
+    &quot;Hepatitis C Antigen: &quot; &amp; TEXT(Hepatitis_C__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+
+IF(
+    ISBLANK( Count_Left_Follicle__c ) = FALSE,
+    &quot;Count of Follicles on Left: &quot; &amp; Count_Left_Follicle__c &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK( Count_Right_Follicle__c ) = FALSE,
+    &quot;Count of Follicles on Right: &quot; &amp; Count_Right_Follicle__c  &amp; &quot; &quot;,
+    &quot;&quot;
+)</formula>
+    <label>Roll Up of Result A- H</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

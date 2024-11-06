@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Count_of_Follicles__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This data is required for consent; 3.5 - More Than 1 Lead Follicle Consent. Please enter the desired value before sending to the patient (or this field will be blank).</inlineHelpText>
+    <label>Count of Follicles</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cycle Cancelled Reason --></label>
+    <name>Cycle_Cancelled_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Medical</masterLabel>
+        <translation><!-- Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non Medical</masterLabel>
+        <translation><!-- Non Medical --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Finalising Admission</fullName>
+                <default>false</default>
+                <label>Finalising Admission</label>
+            </value>
+            <value>
+                <fullName>In Cycle</fullName>
+                <default>false</default>
+                <label>In Cycle</label>
+            </value>
+            <value>
+                <fullName>Awaiting PGT Results</fullName>
+                <default>false</default>
+                <label>Awaiting PGT Results</label>
+            </value>
+            <value>
+                <fullName>WFPT</fullName>
+                <default>false</default>
+                <label>WFPT</label>
+            </value>
+            <value>
+                <fullName>Awaiting Clinical Pregnancy</fullName>
+                <default>false</default>
+                <label>Awaiting Clinical Pregnancy</label>
+            </value>
+            <value>
+                <fullName>Awaiting Live Birth</fullName>
+                <default>false</default>
+                <label>Awaiting Live Birth</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

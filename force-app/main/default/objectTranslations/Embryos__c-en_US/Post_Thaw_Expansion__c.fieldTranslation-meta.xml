@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Post Thaw Assessment --></label>
+    <name>Post_Thaw_Expansion__c</name>
+    <picklistValues>
+        <masterLabel>Blastocyst</masterLabel>
+        <translation><!-- Blastocyst --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleavage</masterLabel>
+        <translation><!-- Cleavage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compacting</masterLabel>
+        <translation><!-- Compacting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Degenerate</masterLabel>
+        <translation><!-- Degenerate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Early blastocyst</masterLabel>
+        <translation><!-- Early blastocyst --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Morula</masterLabel>
+        <translation><!-- Morula --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

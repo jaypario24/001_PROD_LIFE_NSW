@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Freeze All Reason --></label>
+    <name>Freeze_All_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Non-PGT</masterLabel>
+        <translation><!-- Non-PGT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PGT</masterLabel>
+        <translation><!-- PGT --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

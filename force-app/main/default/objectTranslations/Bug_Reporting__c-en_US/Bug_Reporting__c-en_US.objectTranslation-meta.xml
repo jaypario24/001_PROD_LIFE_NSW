@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Backlog Tracking</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Backlog Tracking</value>
+    </caseValues>
+    <layouts>
+        <layout>Bug Reporting Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>Email_Submitter</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log Report --></label>
+        <name>Log_Bug_Report</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Bugs --></label>
+        <name>Bugs</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- New_Bug_Report --></label>
+        <name>New_Bug_Report</name>
+    </webLinks>
+</CustomObjectTranslation>

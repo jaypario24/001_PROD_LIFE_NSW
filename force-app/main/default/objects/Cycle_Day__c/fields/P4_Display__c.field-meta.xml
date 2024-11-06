@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>P4_Display__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    AND(
+        ISBLANK(Booked_P4__c),
+        ISBLANK(P4__c)
+    ),
+    &apos;&apos;,
+    IF(
+        NOT(ISBLANK(P4__c)),
+        IF(P4__c = 0, Booked_P4__c, TEXT(P4__c)),
+        Booked_P4__c
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>P4</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Cause_of_Female_Infertility__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary Cause of Female Infertility</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Age</fullName>
+                <default>false</default>
+                <label>Age</label>
+            </value>
+            <value>
+                <fullName>Adenomyosis</fullName>
+                <default>false</default>
+                <label>Adenomyosis</label>
+            </value>
+            <value>
+                <fullName>Endometrial defect</fullName>
+                <default>false</default>
+                <label>Endometrial defect</label>
+            </value>
+            <value>
+                <fullName>Endometriosis</fullName>
+                <default>false</default>
+                <label>Endometriosis</label>
+            </value>
+            <value>
+                <fullName>Mild male factor</fullName>
+                <default>false</default>
+                <label>Mild male factor</label>
+            </value>
+            <value>
+                <fullName>Severe male factor</fullName>
+                <default>false</default>
+                <label>Severe male factor</label>
+            </value>
+            <value>
+                <fullName>Social</fullName>
+                <default>false</default>
+                <label>Social</label>
+            </value>
+            <value>
+                <fullName>Poor responder</fullName>
+                <default>false</default>
+                <label>Poor responder</label>
+            </value>
+            <value>
+                <fullName>Egg donor( ?covered by prev field)</fullName>
+                <default>false</default>
+                <label>Egg donor( ?covered by prev field)</label>
+            </value>
+            <value>
+                <fullName>Tubal</fullName>
+                <default>false</default>
+                <label>Tubal</label>
+            </value>
+            <value>
+                <fullName>Uterine anomaly</fullName>
+                <default>false</default>
+                <label>Uterine anomaly</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

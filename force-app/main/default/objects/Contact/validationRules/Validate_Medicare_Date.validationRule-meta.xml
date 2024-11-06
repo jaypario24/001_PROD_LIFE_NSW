@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Medicare_Date</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(OR(
+  ISBLANK(Expiry__c),
+  REGEX(Expiry__c, &quot;\\d{2}/\\d{2}&quot;)
+))</errorConditionFormula>
+    <errorDisplayField>Expiry__c</errorDisplayField>
+    <errorMessage>The date format must be Month/Year 01/22</errorMessage>
+</ValidationRule>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Freeze Media --></label>
+    <name>Freeze_Media__c</name>
+    <picklistValues>
+        <masterLabel>Cook Vitrification Kit</masterLabel>
+        <translation><!-- Cook Vitrification Kit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In House</masterLabel>
+        <translation><!-- In House --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SageVitKit</masterLabel>
+        <translation><!-- SageVitKit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vitrolife RapidVitBlast</masterLabel>
+        <translation><!-- Vitrolife RapidVitBlast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vitrolife RapidVitCleave</masterLabel>
+        <translation><!-- Vitrolife RapidVitCleave --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Awaiting Clinical Pregnancy</masterLabel>
+        <translation><!-- Awaiting Clinical Pregnancy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Awaiting Live Birth</masterLabel>
+        <translation><!-- Awaiting Live Birth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Awaiting PGT Results</masterLabel>
+        <translation><!-- Awaiting PGT Results --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed</masterLabel>
+        <translation><!-- Closed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finalising Admission</masterLabel>
+        <translation><!-- Finalising Admission --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Cycle</masterLabel>
+        <translation><!-- In Cycle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WFPT</masterLabel>
+        <translation><!-- WFPT --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

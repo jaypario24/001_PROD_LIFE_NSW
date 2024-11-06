@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>patient_phiHealthFundAccount_healthFundC__c</fullName>
+    <externalId>false</externalId>
+    <formula>Linked_Finance_Item__r.Patient__r.Fund_Brand_ID__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>patient.phiHealthFundAccount.healthFundC</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

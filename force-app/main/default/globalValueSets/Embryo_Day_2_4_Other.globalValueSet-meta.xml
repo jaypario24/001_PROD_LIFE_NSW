@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Uneven</fullName>
+        <default>false</default>
+        <label>Uneven</label>
+    </customValue>
+    <customValue>
+        <fullName>Vacuoles</fullName>
+        <default>false</default>
+        <label>Vacuoles</label>
+    </customValue>
+    <customValue>
+        <fullName>Degenerate Cells</fullName>
+        <default>false</default>
+        <label>Degenerate Cells</label>
+    </customValue>
+    <customValue>
+        <fullName>Arrested</fullName>
+        <default>false</default>
+        <label>Arrested</label>
+    </customValue>
+    <customValue>
+        <fullName>Grainy</fullName>
+        <default>false</default>
+        <label>Grainy</label>
+    </customValue>
+    <customValue>
+        <fullName>Compacting</fullName>
+        <default>false</default>
+        <label>Compacting</label>
+    </customValue>
+    <masterLabel>Embryo Day 2- 4 Other</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

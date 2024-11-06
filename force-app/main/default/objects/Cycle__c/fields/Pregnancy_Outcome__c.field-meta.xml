@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pregnancy_Outcome__c</fullName>
+    <externalId>false</externalId>
+    <label>Pregnancy Outcome</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Pregnant</fullName>
+                <default>false</default>
+                <label>Not Pregnant</label>
+            </value>
+            <value>
+                <fullName>Biochem</fullName>
+                <default>false</default>
+                <label>Biochem</label>
+            </value>
+            <value>
+                <fullName>Positive BHCG</fullName>
+                <default>false</default>
+                <label>Positive BHCG</label>
+            </value>
+            <value>
+                <fullName>Ectopic</fullName>
+                <default>false</default>
+                <label>Ectopic</label>
+            </value>
+            <value>
+                <fullName>Clinical Pregnancy</fullName>
+                <default>false</default>
+                <label>Clinical Pregnancy</label>
+            </value>
+            <value>
+                <fullName>Missed Miscarriage</fullName>
+                <default>false</default>
+                <label>Missed Miscarriage</label>
+            </value>
+            <value>
+                <fullName>Under 20 Week Miscarriage</fullName>
+                <default>false</default>
+                <label>Under 20 Week Miscarriage</label>
+            </value>
+            <value>
+                <fullName>Over 20 Week Miscarriage</fullName>
+                <default>false</default>
+                <label>Over 20 Week Miscarriage</label>
+            </value>
+            <value>
+                <fullName>Still Birth</fullName>
+                <default>false</default>
+                <label>Still Birth</label>
+            </value>
+            <value>
+                <fullName>Live Birth</fullName>
+                <default>false</default>
+                <label>Live Birth</label>
+            </value>
+            <value>
+                <fullName>Pregnancy Terminated</fullName>
+                <default>false</default>
+                <label>Pregnancy Terminated</label>
+            </value>
+            <value>
+                <fullName>Heterotopic</fullName>
+                <default>false</default>
+                <label>Heterotopic</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

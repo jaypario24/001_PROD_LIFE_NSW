@@ -1,0 +1,32 @@
+<template>
+    <lightning-card title="Checklist" icon-name="standard:tour_check">
+        <div class="slds-m-around_medium">
+            <lightning-datatable data={checklistItems} 
+                                 columns={columns} 
+                                 key-field="id" 
+                                 onrowaction={handleRowAction}
+                                 selected-rows={selectedRows}
+                                 hide-checkbox-column={showCheckboxes}
+                                 show-row-number-column={showRowNumbers}>
+            </lightning-datatable>
+            <div class="slds-m-top_small"></div> <!-- Spacer -->
+            <lightning-button label="Save" 
+                              onclick={saveChecklist} 
+                              variant="brand"
+                              class="slds-m-top_small">
+            </lightning-button>
+            <div style="display: inline-block; width: 10px;"></div>
+            <lightning-button label="Delete" 
+                      onclick={deleteSelected} 
+                      variant="destructive"
+                      class="slds-m-top_small">
+             </lightning-button>
+             <div style="display: inline-block; width: 10px;"></div>
+             <lightning-button label="Add Checklist Items" 
+             onclick={startFlow} 
+             variant="neutral">
+            </lightning-button>
+        </div>
+        <lightning-flow id="flowComponent"></lightning-flow>
+    </lightning-card>
+</template>

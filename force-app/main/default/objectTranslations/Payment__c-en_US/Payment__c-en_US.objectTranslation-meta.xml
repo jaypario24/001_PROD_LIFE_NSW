@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Payment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Payments</value>
+    </caseValues>
+    <layouts>
+        <layout>Credit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Payment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Credit Note --></label>
+        <name>Credit_Note</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Payment --></label>
+        <name>Payment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Prepayment --></label>
+        <name>Prepayment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Refund --></label>
+        <name>Refund</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Bulk_Reconcile --></label>
+        <name>Bulk_Reconcile</name>
+    </webLinks>
+</CustomObjectTranslation>

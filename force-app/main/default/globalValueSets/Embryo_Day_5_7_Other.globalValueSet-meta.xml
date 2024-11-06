@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Grainy</fullName>
+        <default>false</default>
+        <label>Grainy</label>
+    </customValue>
+    <customValue>
+        <fullName>Fragmentation</fullName>
+        <default>false</default>
+        <label>Fragmentation</label>
+    </customValue>
+    <customValue>
+        <fullName>Excluded Cells</fullName>
+        <default>false</default>
+        <label>Excluded Cells</label>
+    </customValue>
+    <customValue>
+        <fullName>Too Few Cells</fullName>
+        <default>false</default>
+        <label>Too Few Cells</label>
+    </customValue>
+    <customValue>
+        <fullName>Degenerate</fullName>
+        <default>false</default>
+        <label>Degenerate</label>
+    </customValue>
+    <masterLabel>Embryo Day 5-7 Other</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Day_6_Embryos_Frozen__c</fullName>
+    <externalId>false</externalId>
+    <label>Number of Day 6 Embryos Frozen</label>
+    <summaryFilterItems>
+        <field>Embryos__c.Cycle_Day__c</field>
+        <operation>equals</operation>
+        <value>6</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Embryos__c.Fate__c</field>
+        <operation>equals</operation>
+        <value>Frozen</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Embryos__c.Embryo_Batch__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

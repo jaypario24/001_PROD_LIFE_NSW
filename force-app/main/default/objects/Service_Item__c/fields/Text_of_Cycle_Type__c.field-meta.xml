@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Text_of_Cycle_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( INCLUDES ( Related_Cycle_Types__c , &quot;IVF Cycle&quot; ), &quot;IVF Cycle; &quot;,null ) &amp;
+IF ( INCLUDES ( Related_Cycle_Types__c , &quot;FET Cycle&quot; ), &quot;FET Cycle; &quot;,null ) &amp;
+IF ( INCLUDES ( Related_Cycle_Types__c , &quot;Duo Stim&quot; ), &quot;Duo Stim; &quot;,null ) &amp;
+IF ( INCLUDES ( Related_Cycle_Types__c , &quot;Egg Freeze Cycle&quot;), &quot;Egg Freeze Cycle; &quot;,null ) &amp;
+IF ( INCLUDES ( Related_Cycle_Types__c , &quot;IUI Cycle&quot;), &quot;IUI Cycle; &quot;,null ) &amp;
+IF ( INCLUDES ( Related_Cycle_Types__c , &quot;OI Cycle&quot;), &quot;OI Cycle; &quot;,null ) &amp;
+IF ( INCLUDES ( Related_Cycle_Types__c , &quot;Lab Only Cycle&quot;), &quot;Lab Only Cycle; &quot;,null ) &amp;
+IF ( INCLUDES ( Related_Cycle_Types__c , &quot;VOT Cycle&quot;), &quot;VOT Cycle; &quot;,null ) &amp;
+IF ( INCLUDES ( Related_Cycle_Types__c , &quot;Fresh Egg Donor Cycle&quot; ), &quot;Fresh Egg Donor Cycle; &quot;,null )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Text of Cycle Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

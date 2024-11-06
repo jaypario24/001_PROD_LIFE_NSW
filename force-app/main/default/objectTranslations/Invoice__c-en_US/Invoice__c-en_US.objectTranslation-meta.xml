@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Invoice</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Invoices</value>
+    </caseValues>
+    <layouts>
+        <layout>Invoice Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Additional Line Items --></label>
+        <name>Add_Additional_Line_Items</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Medicare Claim from Invoice --></label>
+        <name>Create_Medicare_Claim_from_Invoice</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Refund/Credit Note --></label>
+        <name>Create_Refund_Credit_Note</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>Email_Invoice</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Receipt Payment/Apply Credit --></label>
+        <name>Receipt_Payment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Void Invoice --></label>
+        <name>Void_Invoice</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

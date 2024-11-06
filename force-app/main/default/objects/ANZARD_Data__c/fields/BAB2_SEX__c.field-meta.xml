@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BAB2_SEX__c</fullName>
+    <description>Sex of second-born baby.</description>
+    <externalId>false</externalId>
+    <formula>LEFT(TEXT(  CYCLE_ID__r.Sex_of_Second_Born_Baby__c ),1)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>BAB2_SEX</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

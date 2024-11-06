@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Anaesthetic Type --></label>
+    <name>Anaesthetic_Type__c</name>
+    <picklistValues>
+        <masterLabel>General Anesthesia</masterLabel>
+        <translation><!-- General Anesthesia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inhaled Analgesia</masterLabel>
+        <translation><!-- Inhaled Analgesia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monitored Anesthesia Care</masterLabel>
+        <translation><!-- Monitored Anesthesia Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sedation</masterLabel>
+        <translation><!-- Sedation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

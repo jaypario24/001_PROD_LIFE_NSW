@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Trigger</fullName>
+        <default>false</default>
+        <label>Trigger</label>
+    </customValue>
+    <customValue>
+        <fullName>FSH</fullName>
+        <default>false</default>
+        <label>FSH</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>GnRH Antagonist</fullName>
+        <default>false</default>
+        <label>GnRH Antagonist</label>
+    </customValue>
+    <customValue>
+        <fullName>Ov Stim</fullName>
+        <default>false</default>
+        <label>Ov Stim</label>
+    </customValue>
+    <customValue>
+        <fullName>Contraceptive</fullName>
+        <default>false</default>
+        <label>Contraceptive</label>
+    </customValue>
+    <customValue>
+        <fullName>Luteal support</fullName>
+        <default>false</default>
+        <label>Luteal support</label>
+    </customValue>
+    <customValue>
+        <fullName>LH Supplements</fullName>
+        <default>false</default>
+        <label>LH Supplements</label>
+    </customValue>
+    <customValue>
+        <fullName>GnRh Agonist</fullName>
+        <default>false</default>
+        <label>GnRh Agonist</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjuvants</fullName>
+        <default>false</default>
+        <label>Adjuvants</label>
+    </customValue>
+    <customValue>
+        <fullName>Cycle Timing</fullName>
+        <default>false</default>
+        <label>Cycle Timing</label>
+    </customValue>
+    <customValue>
+        <fullName>Ovulation Induction</fullName>
+        <default>false</default>
+        <label>Ovulation Induction</label>
+    </customValue>
+    <customValue>
+        <fullName>HRT Priming</fullName>
+        <default>false</default>
+        <label>HRT Priming</label>
+    </customValue>
+    <customValue>
+        <fullName>OHSS Prevention</fullName>
+        <default>false</default>
+        <label>OHSS Prevention</label>
+    </customValue>
+    <masterLabel>Medication Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

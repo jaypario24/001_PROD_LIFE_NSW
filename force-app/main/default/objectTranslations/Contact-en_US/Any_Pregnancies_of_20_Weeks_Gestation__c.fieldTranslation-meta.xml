@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Any Pregnancies of 20+ Weeks Gestation? --></label>
+    <name>Any_Pregnancies_of_20_Weeks_Gestation__c</name>
+</CustomFieldTranslation>

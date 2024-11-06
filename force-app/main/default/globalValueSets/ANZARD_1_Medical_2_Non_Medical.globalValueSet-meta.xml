@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1 = Medical Reason</fullName>
+        <default>false</default>
+        <label>1 = Medical Reason</label>
+    </customValue>
+    <customValue>
+        <fullName>2 = Non-Medical Reason</fullName>
+        <default>false</default>
+        <label>2 = Non-Medical Reason</label>
+    </customValue>
+    <masterLabel>ANZARD_1=Medical Reason 2= Non-Medical R</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

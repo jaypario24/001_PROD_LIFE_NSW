@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>mgm</fullName>
+        <default>false</default>
+        <label>mgm</label>
+    </customValue>
+    <customValue>
+        <fullName>mcg</fullName>
+        <default>false</default>
+        <label>mcg</label>
+    </customValue>
+    <customValue>
+        <fullName>tab</fullName>
+        <default>false</default>
+        <label>tab</label>
+    </customValue>
+    <customValue>
+        <fullName>tablet</fullName>
+        <default>false</default>
+        <label>tablet</label>
+    </customValue>
+    <customValue>
+        <fullName>iu</fullName>
+        <default>false</default>
+        <label>iu</label>
+    </customValue>
+    <customValue>
+        <fullName>mcg SC</fullName>
+        <default>false</default>
+        <label>mcg SC</label>
+    </customValue>
+    <customValue>
+        <fullName>iu SC</fullName>
+        <default>false</default>
+        <label>iu SC</label>
+    </customValue>
+    <customValue>
+        <fullName>mg</fullName>
+        <default>false</default>
+        <label>mg</label>
+    </customValue>
+    <customValue>
+        <fullName>gm</fullName>
+        <default>false</default>
+        <label>gm</label>
+    </customValue>
+    <customValue>
+        <fullName>cmg</fullName>
+        <default>false</default>
+        <label>cmg</label>
+    </customValue>
+    <customValue>
+        <fullName>mg/ml</fullName>
+        <default>false</default>
+        <label>mg/ml</label>
+    </customValue>
+    <customValue>
+        <fullName>g</fullName>
+        <default>false</default>
+        <label>g</label>
+    </customValue>
+    <customValue>
+        <fullName>Pumps</fullName>
+        <default>false</default>
+        <label>Pumps</label>
+    </customValue>
+    <customValue>
+        <fullName>unit</fullName>
+        <default>false</default>
+        <label>unit</label>
+    </customValue>
+    <customValue>
+        <fullName>ml</fullName>
+        <default>false</default>
+        <label>ml</label>
+    </customValue>
+    <masterLabel>Medication Units</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

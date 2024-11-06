@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Membership_Issue_number__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the order in which the patients on the card were issued insurance. If there is only one patient on the card, this number is 1.</inlineHelpText>
+    <label>Membership Issue number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

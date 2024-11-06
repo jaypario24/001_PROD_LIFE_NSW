@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Earliest_Embryo_Freeze_Date__c</fullName>
+    <externalId>false</externalId>
+    <label>Earliest Embryo Freeze Date</label>
+    <summarizedField>Embryos__c.Storage_Date__c</summarizedField>
+    <summaryForeignKey>Embryos__c.Embryo_Batch__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

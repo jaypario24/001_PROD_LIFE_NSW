@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Storage Location Risk --></label>
+    <name>Storage_Location_Risk__c</name>
+    <picklistValues>
+        <masterLabel>QUARANTINE</masterLabel>
+        <translation><!-- QUARANTINE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regular</masterLabel>
+        <translation><!-- Regular --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

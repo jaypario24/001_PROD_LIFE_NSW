@@ -1,0 +1,18 @@
+.slds-modal__container {
+    max-width: 40rem;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.slds-modal__content {
+    overflow-y: auto;
+    height: 60vh;
+}
+
+.slds-backdrop {
+    z-index: 9000;
+}
+
+.slds-modal {
+    z-index: 9010;
+}

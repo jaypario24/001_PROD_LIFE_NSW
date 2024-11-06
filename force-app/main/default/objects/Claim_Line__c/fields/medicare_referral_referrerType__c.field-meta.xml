@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>medicare_referral_referrerType__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT( Linked_Finance_Item__r.Linked_Referral__r.Referring_Doctor__r.Type_of_Doctor__c )= &quot;Specialist&quot;, &quot;S&quot;, &quot;GP&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>medicare.referral.referrerType</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

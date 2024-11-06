@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_Alert_Lab_on_Task_Creation</fullName>
+        <description>Email Alert Lab on Task Creation</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Life_Fertility_Lab</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>AdminEmails/Email_Admin_of_Urgent_Task_1720410838478</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Upon_Urgent_Task_Admin</fullName>
+        <description>Email Upon Urgent Task Admin</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Life_Fertility_Admin</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>AdminEmails/Email_Admin_of_Urgent_Task_1720410838478</template>
+    </alerts>
+</Workflow>

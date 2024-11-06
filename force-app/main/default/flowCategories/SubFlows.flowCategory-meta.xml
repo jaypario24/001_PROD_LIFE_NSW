@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowCategory xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>basic</description>
+    <flowCategoryItems>
+        <flow>Developer_Select_Users_From_Group</flow>
+    </flowCategoryItems>
+    <flowCategoryItems>
+        <flow>Developer_Basic_Flow_Template</flow>
+    </flowCategoryItems>
+    <masterLabel>SubFlows</masterLabel>
+</FlowCategory>

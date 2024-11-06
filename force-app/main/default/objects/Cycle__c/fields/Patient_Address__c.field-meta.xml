@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Patient_Address__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK(Patient__r.MailingAddress),&quot;&quot;,Patient__r.MailingStreet&amp;&quot;, &quot;&amp; Patient__r.MailingCity &amp;&quot;, &quot;&amp; Patient__r.MailingPostalCode)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Patient Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

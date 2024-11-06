@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- ID of the Google Docs template for document creation. When looking at a Google Doc URL, the ID is the long string of numbers and letters found between &quot;document/d/&quot; and &quot;/edit&quot;. Don&apos;t forget to set its Share settings to &quot;Anyone with link: Can Edit&quot; --></help>
+    <label><!-- GDoc Template Document ID --></label>
+    <name>docb__GDoc_Template_Document_ID__c</name>
+</CustomFieldTranslation>

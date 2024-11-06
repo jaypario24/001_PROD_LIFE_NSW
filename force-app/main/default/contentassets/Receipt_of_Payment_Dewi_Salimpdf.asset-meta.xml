@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>true</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>Receipt_of_Payment_Dewi_Salimpdf</masterLabel>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>Receipt of Payment - Dewi Salim.pdf</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

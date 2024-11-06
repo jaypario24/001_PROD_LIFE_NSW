@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>medicare_referral_periodType__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT( Linked_Finance_Item__r.Linked_Referral__r.Referral_Length__c )= &quot;Indefinite&quot; ,&quot;I&quot;,&quot;S&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>medicare.referral.periodType</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

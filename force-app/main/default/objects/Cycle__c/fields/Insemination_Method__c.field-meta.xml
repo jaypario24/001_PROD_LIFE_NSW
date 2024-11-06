@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insemination_Method__c</fullName>
+    <externalId>false</externalId>
+    <label>Insemination Method</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IVF</fullName>
+                <default>false</default>
+                <label>IVF</label>
+            </value>
+            <value>
+                <fullName>Standard ICSI</fullName>
+                <default>false</default>
+                <label>Standard ICSI</label>
+            </value>
+            <value>
+                <fullName>1/2 ICSI 1/2 IVF</fullName>
+                <default>false</default>
+                <label>1/2 ICSI 1/2 IVF</label>
+            </value>
+            <value>
+                <fullName>1/2 IVF 1/2 HA ICSI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1/2 IVF 1/2 HA ICSI</label>
+            </value>
+            <value>
+                <fullName>1/2 IVF 1/2 HA ICSI plus Calcium Activation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1/2 IVF 1/2 HA ICSI plus Calcium Activation</label>
+            </value>
+            <value>
+                <fullName>HA ICSI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>HA ICSI</label>
+            </value>
+            <value>
+                <fullName>ICSI + HA ICSI plus Calcium Activation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ICSI + HA ICSI plus Calcium Activation</label>
+            </value>
+            <value>
+                <fullName>ICSI plus Calcium Activation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ICSI plus Calcium Activation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Post_Thaw_Survival__c</fullName>
+    <externalId>false</externalId>
+    <label>Post Thaw Survival</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>100%</fullName>
+                <default>false</default>
+                <label>100%</label>
+            </value>
+            <value>
+                <fullName>80% - 99%</fullName>
+                <default>false</default>
+                <label>80% - 99%</label>
+            </value>
+            <value>
+                <fullName>50% - 79%</fullName>
+                <default>false</default>
+                <label>50% - 79%</label>
+            </value>
+            <value>
+                <fullName>0% - 49%</fullName>
+                <default>false</default>
+                <label>0% - 49%</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

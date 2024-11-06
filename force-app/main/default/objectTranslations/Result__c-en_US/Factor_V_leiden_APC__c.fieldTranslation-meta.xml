@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Factor V Leiden (APC) --></label>
+    <name>Factor_V_leiden_APC__c</name>
+</CustomFieldTranslation>

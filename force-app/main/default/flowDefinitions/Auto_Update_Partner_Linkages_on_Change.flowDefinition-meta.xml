@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>1</activeVersionNumber>
+    <description>Automatically aligns partner ID when changed.</description>
+    <masterLabel>Auto Update Partner Linkages on Change</masterLabel>
+</FlowDefinition>

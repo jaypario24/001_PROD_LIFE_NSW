@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cycle Not Proceeding Reason --></label>
+    <name>Cycle_not_proceeding_reason__c</name>
+    <picklistValues>
+        <masterLabel>Conceived naturally</masterLabel>
+        <translation><!-- Conceived naturally --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cost</masterLabel>
+        <translation><!-- Cost --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Going elsewhere</masterLabel>
+        <translation><!-- Going elsewhere --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not ready</masterLabel>
+        <translation><!-- Not ready --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Relationship broken down</masterLabel>
+        <translation><!-- Relationship broken down --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

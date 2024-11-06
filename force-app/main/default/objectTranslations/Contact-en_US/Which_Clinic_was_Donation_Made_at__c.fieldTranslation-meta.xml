@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Which Clinic was Donation Made at? --></label>
+    <name>Which_Clinic_was_Donation_Made_at__c</name>
+</CustomFieldTranslation>

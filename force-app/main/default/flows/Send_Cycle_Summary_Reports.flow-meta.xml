@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_Dr_Report</name>
+        <label>Send Dr Report</label>
+        <locationX>704</locationX>
+        <locationY>792</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <isGoTo>true</isGoTo>
+            <targetReference>Loop_Cycle</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>Loop_Cycle.Doctor_Initiating_Cycle__r.Internal_Doctor_Linkage__r.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>Loop_Links.ContentDocument.Owner.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Cycle Report requiring your attention</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>EmailBody</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>relatedRecordId</name>
+            <value>
+                <elementReference>Loop_Cycle.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientId</name>
+            <value>
+                <elementReference>Loop_Cycle.Doctor_Initiating_Cycle__r.Internal_Doctor_Linkage__r.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>58.0</apiVersion>
+    <decisions>
+        <name>Correct_Document</name>
+        <label>Correct Document?</label>
+        <locationX>836</locationX>
+        <locationY>684</locationY>
+        <defaultConnector>
+            <targetReference>Loop_Links</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes_Outcome</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Loop_Links.ContentDocument.Title</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Cycle Summary Report</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Dr_Report</targetReference>
+            </connector>
+            <label>Yes Outcome</label>
+        </rules>
+    </decisions>
+    <description>This flow finds all Cycle Summary Reports which were generated &quot;Today&quot; and sends them to the Treating Doctor of it&apos;s respective (closed) cycles.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>DocumentURL</name>
+        <dataType>String</dataType>
+        <expression>&quot;https://ballarativf.lightning.force.com/lightning/r/ContentDocument/&quot;&amp;{!Loop_Links.ContentDocument.Id}&amp;&quot;/view&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>TodaysDate</name>
+        <dataType>Date</dataType>
+        <expression>DATEVALUE(TEXT(NOW()))</expression>
+    </formulas>
+    <interviewLabel>Send Cycle Summary Reports {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Send Cycle Summary Reports</label>
+    <loops>
+        <name>Loop_Cycle</name>
+        <label>Loop Cycle</label>
+        <locationX>176</locationX>
+        <locationY>360</locationY>
+        <collectionReference>Get_Cycle_Report_Date</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Get_Link</targetReference>
+        </nextValueConnector>
+    </loops>
+    <loops>
+        <name>Loop_Links</name>
+        <label>Loop Links</label>
+        <locationX>616</locationX>
+        <locationY>576</locationY>
+        <collectionReference>Get_Link</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Correct_Document</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Loop_Cycle</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Cycle_Report_Date</name>
+        <label>Get Cycle Report Date</label>
+        <locationX>176</locationX>
+        <locationY>252</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_Cycle</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Date_Report_Generated__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Cycle__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Link</name>
+        <label>Get Link</label>
+        <locationX>616</locationX>
+        <locationY>468</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_Links</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>LinkedEntityId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Loop_Cycle.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>ContentDocumentLink</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Cycle_Report_Date</targetReference>
+        </connector>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2023-06-20</startDate>
+            <startTime>17:00:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>EmailBody</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Dear {!Loop_Cycle.Doctor_Initiating_Cycle__r.Name},
+
+This email is to inform you that cycle {!Loop_Cycle.Name} is now has an available cycle report and you can view the cycle report at this URL: {!DocumentURL}
+
+Kind Regards, 
+
+Zygote.</text>
+    </textTemplates>
+    <variables>
+        <name>RecordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

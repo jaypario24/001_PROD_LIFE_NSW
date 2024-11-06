@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Patient_File_Warning__c</fullName>
+    <defaultValue>&quot;WARNING THIS IS NOT AN IN CYCLE NOTE&quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>Patient File Warning</label>
+    <length>255</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

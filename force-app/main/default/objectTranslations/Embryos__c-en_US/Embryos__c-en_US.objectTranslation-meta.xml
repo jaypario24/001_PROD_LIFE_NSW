@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Embryo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Embryos</value>
+    </caseValues>
+    <layouts>
+        <layout>Embryo Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add PGT Result --></label>
+        <name>Add_PGT_Result</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Discard Embryo --></label>
+        <name>Discard_Embryo</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Export Embryos --></label>
+        <name>Export_Embryos</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Embryo --></label>
+        <name>Embryo</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

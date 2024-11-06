@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This data is required for consents; 10.13 - Thawing of Embryos &amp; 10.9 Withdrawing Consent to Donate Embryos or Sperm &amp; CF FLAB17 Embryo Disposal Consent. Please enter the desired value before sending to the patient (or this field will be blank). --></help>
+    <label><!-- Count of Embryos --></label>
+    <name>Count_of_Embryos__c</name>
+</CustomFieldTranslation>

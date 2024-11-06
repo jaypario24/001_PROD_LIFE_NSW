@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- DVA Card Type --></label>
+    <name>DVA_Card_Type__c</name>
+    <picklistValues>
+        <masterLabel>--None--</masterLabel>
+        <translation><!-- - - None- -  --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gold</masterLabel>
+        <translation><!-- Gold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orange</masterLabel>
+        <translation><!-- Orange --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>White</masterLabel>
+        <translation><!-- White --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

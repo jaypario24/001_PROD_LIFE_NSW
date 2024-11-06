@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Patient Auto ID As Number --></label>
+    <name>Patient_Auto_ID_As_Number__c</name>
+</CustomFieldTranslation>

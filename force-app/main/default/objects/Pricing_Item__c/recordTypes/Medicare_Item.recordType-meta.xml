@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Medicare_Item</fullName>
+    <active>true</active>
+    <label>Medicare Item</label>
+    <picklistValues>
+        <picklist>Pricing_Type__c</picklist>
+        <values>
+            <fullName>BulkBill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Price</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Related_To_Cycle_Type__c</picklist>
+        <values>
+            <fullName>Egg Freeze Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FET Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fresh Egg Donor Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IUI Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IVF Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lab Only Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OI Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VOT Cycle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

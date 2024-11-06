@@ -1,0 +1,9 @@
+<aura:component implements="lightning:actionOverride,lightning:isUrlAddressable" access="global">
+    <!-- Handle the init and change events -->
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:handler name="change" value="{!this}" action="{!c.handleUrlChange}"/>
+
+    <lightning:card>
+        <lightning:flow aura:id="flowData" />
+    </lightning:card>
+</aura:component>

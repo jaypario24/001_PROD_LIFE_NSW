@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Count_RZ__c</fullName>
+    <externalId>false</externalId>
+    <label>Count RZ</label>
+    <summaryFilterItems>
+        <field>Egg__c.Grade__c</field>
+        <operation>equals</operation>
+        <value>RZ</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Egg__c.Egg_Cohort__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

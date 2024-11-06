@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fertilisation_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Fertilisation Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2PN</fullName>
+                <default>false</default>
+                <label>2PN</label>
+            </value>
+            <value>
+                <fullName>NF</fullName>
+                <default>false</default>
+                <label>NF</label>
+            </value>
+            <value>
+                <fullName>NF –&gt; 2PN</fullName>
+                <default>false</default>
+                <label>NF –&gt; 2PN</label>
+            </value>
+            <value>
+                <fullName>3PN</fullName>
+                <default>false</default>
+                <label>3PN</label>
+            </value>
+            <value>
+                <fullName>1PN</fullName>
+                <default>false</default>
+                <label>1PN</label>
+            </value>
+            <value>
+                <fullName>DEG</fullName>
+                <default>false</default>
+                <label>DEG</label>
+            </value>
+            <value>
+                <fullName>4+PN</fullName>
+                <default>false</default>
+                <label>4+PN</label>
+            </value>
+            <value>
+                <fullName>EZ</fullName>
+                <default>false</default>
+                <label>EZ</label>
+            </value>
+            <value>
+                <fullName>OoZ</fullName>
+                <default>false</default>
+                <label>OoZ</label>
+            </value>
+            <value>
+                <fullName>Giant</fullName>
+                <default>false</default>
+                <label>Giant</label>
+            </value>
+            <value>
+                <fullName>0PN 0PB (MI)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>0PN 0PB (MI)</label>
+            </value>
+            <value>
+                <fullName>0PN 1PB (MII)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>0PN 1PB (MII)</label>
+            </value>
+            <value>
+                <fullName>0PN 2PB</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>0PN 2PB</label>
+            </value>
+            <value>
+                <fullName>&gt;3PN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>&gt;3PN</label>
+            </value>
+            <value>
+                <fullName>GV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GV</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OTHER</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

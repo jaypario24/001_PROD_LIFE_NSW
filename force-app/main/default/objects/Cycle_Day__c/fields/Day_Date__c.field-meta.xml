@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Day_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Day_Number__c)=TRUE, Prior_to_Day_1_Date__c ,Cycle__r.Day_1__c + Day_Number__c -1)</formula>
+    <label>Day Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

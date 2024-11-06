@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is an email alert template which sends out Automatically when the patient is booked for an OI cycle.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>OI Checklist Email</name>
+    <relatedEntityType>Cycle__c</relatedEntityType>
+    <style>none</style>
+    <subject>Ovulation Induction Checklist for Review</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

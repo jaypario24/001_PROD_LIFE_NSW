@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cycle Failed Reason --></label>
+    <name>Cycle_Failed_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Failed Fert</masterLabel>
+        <translation><!-- Failed Fert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Failed OPU</masterLabel>
+        <translation><!-- Failed OPU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Mature Eggs</masterLabel>
+        <translation><!-- No Mature Eggs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Utilisation of Embryos</masterLabel>
+        <translation><!-- No Utilisation of Embryos --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

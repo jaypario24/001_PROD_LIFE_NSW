@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call</fullName>
+    <active>true</active>
+    <label>Call</label>
+    <picklistValues>
+        <picklist>Andrology_Type__c</picklist>
+        <values>
+            <fullName>Semen Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semen Collection</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Appointment_Type__c</picklist>
+        <values>
+            <fullName>Blood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onsite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interview_Type__c</picklist>
+        <values>
+            <fullName>Account Overview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collection of Medications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Egg Donor Overview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FET Interview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fertility Preservation Overview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Fertility Consult</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IUI%2FDI Overview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IVF Overview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OI Overview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recipient Overview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sperm Donor Overview</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Procedure_Type__c</picklist>
+        <values>
+            <fullName>Egg Thaw - VOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filgrastim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IUI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OPU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PESA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TESA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Scan_Type__c</picklist>
+        <values>
+            <fullName>AFC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follicle Scan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pregnancy Scan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Quote</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

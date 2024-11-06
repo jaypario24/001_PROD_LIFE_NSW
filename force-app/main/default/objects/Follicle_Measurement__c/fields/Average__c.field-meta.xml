@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Average__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(ISNULL(D1__c), ISNULL(D2__c), ISNULL(D3__c)),
+    &quot;&quot;,
+    TEXT(
+        ROUND(
+            (
+                D1__c + D2__c + D3__c
+            ) /
+            (
+                IF(D1__c&gt;0, 1, 0) +
+                IF(D2__c&gt;0, 1, 0) +
+                IF(D3__c&gt;0, 1, 0)
+            ),
+            1
+        )
+    ) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Average</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

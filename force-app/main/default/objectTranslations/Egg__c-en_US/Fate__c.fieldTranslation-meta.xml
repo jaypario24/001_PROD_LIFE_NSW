@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Fate --></label>
+    <name>Fate__c</name>
+    <picklistValues>
+        <masterLabel>Denuded</masterLabel>
+        <translation><!-- Denuded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discarded</masterLabel>
+        <translation><!-- Discarded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exported</masterLabel>
+        <translation><!-- Exported --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frozen</masterLabel>
+        <translation><!-- Frozen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inseminated</masterLabel>
+        <translation><!-- Inseminated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trimmed</masterLabel>
+        <translation><!-- Trimmed --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

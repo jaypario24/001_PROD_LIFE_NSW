@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Create Task X Days From Event --></label>
+    <name>Create_Task_X_Days_From_Event__c</name>
+</CustomFieldTranslation>

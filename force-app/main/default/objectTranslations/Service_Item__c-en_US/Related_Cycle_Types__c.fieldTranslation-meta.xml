@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Related Cycle Types? --></label>
+    <name>Related_Cycle_Types__c</name>
+    <picklistValues>
+        <masterLabel>Duo Stim</masterLabel>
+        <translation><!-- Duo Stim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Egg Freeze Cycle</masterLabel>
+        <translation><!-- Egg Freeze Cycle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FET Cycle</masterLabel>
+        <translation><!-- FET Cycle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fresh Egg Donor Cycle</masterLabel>
+        <translation><!-- Fresh Egg Donor Cycle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IUI Cycle</masterLabel>
+        <translation><!-- IUI Cycle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IVF Cycle</masterLabel>
+        <translation><!-- IVF Cycle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lab Only Cycle</masterLabel>
+        <translation><!-- Lab Only Cycle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OI Cycle</masterLabel>
+        <translation><!-- OI Cycle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VOT Cycle</masterLabel>
+        <translation><!-- VOT Cycle --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

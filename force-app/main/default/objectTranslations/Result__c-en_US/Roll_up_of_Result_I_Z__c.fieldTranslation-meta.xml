@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Roll up of Result I-Z --></label>
+    <name>Roll_up_of_Result_I_Z__c</name>
+</CustomFieldTranslation>

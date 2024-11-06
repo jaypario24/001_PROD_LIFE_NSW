@@ -1,0 +1,5 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global">
+    <ltng:require scripts="{!$Resource.Medipass_sdk}" afterScriptsLoaded="{!c.init}" />
+
+    <!-- Your component code goes here -->
+</aura:component>

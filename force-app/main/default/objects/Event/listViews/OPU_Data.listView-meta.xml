@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPU_Data</fullName>
+    <columns>START_DATE_TIME</columns>
+    <columns>WHO_NAME</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>Calendar_Name__c</columns>
+    <columns>Procedure_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Procedure_Type__c</field>
+        <operation>equals</operation>
+        <value>OPU,Transfer</value>
+    </filters>
+    <label>OPU Data</label>
+</ListView>

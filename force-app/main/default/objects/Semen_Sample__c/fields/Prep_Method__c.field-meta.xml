@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prep_Method__c</fullName>
+    <externalId>false</externalId>
+    <label>Prep Method</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>HSA</fullName>
+                <default>false</default>
+                <label>HSA</label>
+            </value>
+            <value>
+                <fullName>0.5mL DG</fullName>
+                <default>false</default>
+                <label>0.5mL DG</label>
+            </value>
+            <value>
+                <fullName>02.Ml DG</fullName>
+                <default>false</default>
+                <label>02.Ml DG</label>
+            </value>
+            <value>
+                <fullName>Wsh 1</fullName>
+                <default>false</default>
+                <label>Wsh 1</label>
+            </value>
+            <value>
+                <fullName>Wsh 2</fullName>
+                <default>false</default>
+                <label>Wsh 2</label>
+            </value>
+            <value>
+                <fullName>Swim Up</fullName>
+                <default>false</default>
+                <label>Swim Up</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

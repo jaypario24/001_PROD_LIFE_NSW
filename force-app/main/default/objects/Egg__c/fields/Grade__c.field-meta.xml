@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grade__c</fullName>
+    <externalId>false</externalId>
+    <label>Grade</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MII</fullName>
+                <default>false</default>
+                <label>MII</label>
+            </value>
+            <value>
+                <fullName>MI - MII</fullName>
+                <default>false</default>
+                <label>MI - MII</label>
+            </value>
+            <value>
+                <fullName>MI</fullName>
+                <default>false</default>
+                <label>MI</label>
+            </value>
+            <value>
+                <fullName>GV</fullName>
+                <default>false</default>
+                <label>GV</label>
+            </value>
+            <value>
+                <fullName>RZ</fullName>
+                <default>false</default>
+                <label>RZ</label>
+            </value>
+            <value>
+                <fullName>EZ</fullName>
+                <default>false</default>
+                <label>EZ</label>
+            </value>
+            <value>
+                <fullName>Abn</fullName>
+                <default>false</default>
+                <label>Abn</label>
+            </value>
+            <value>
+                <fullName>No Oocyte</fullName>
+                <default>false</default>
+                <label>No Oocyte</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

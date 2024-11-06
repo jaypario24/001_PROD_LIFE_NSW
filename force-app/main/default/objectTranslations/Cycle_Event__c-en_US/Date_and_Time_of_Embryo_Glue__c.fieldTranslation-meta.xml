@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Date and Time of Embryo Glue --></label>
+    <name>Date_and_Time_of_Embryo_Glue__c</name>
+</CustomFieldTranslation>

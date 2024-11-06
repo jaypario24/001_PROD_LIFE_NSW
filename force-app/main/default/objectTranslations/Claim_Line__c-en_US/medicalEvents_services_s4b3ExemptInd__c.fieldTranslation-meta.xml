@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- medicalEvents.services.s4b3ExemptInd --></label>
+    <name>medicalEvents_services_s4b3ExemptInd__c</name>
+</CustomFieldTranslation>

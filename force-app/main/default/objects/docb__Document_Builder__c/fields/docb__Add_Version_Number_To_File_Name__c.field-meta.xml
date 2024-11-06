@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>docb__Add_Version_Number_To_File_Name__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If true system will auto add the version number to file name</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If true system will auto add the version number to file name. Like File Name (1).pdf</inlineHelpText>
+    <label>Add Version Number To File Name</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

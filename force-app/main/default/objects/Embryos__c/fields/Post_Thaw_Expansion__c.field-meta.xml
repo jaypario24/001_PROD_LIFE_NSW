@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Post_Thaw_Expansion__c</fullName>
+    <externalId>false</externalId>
+    <label>Post Thaw Assessment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cleavage</fullName>
+                <default>false</default>
+                <label>Cleavage</label>
+            </value>
+            <value>
+                <fullName>Compacting</fullName>
+                <default>false</default>
+                <label>Compacting</label>
+            </value>
+            <value>
+                <fullName>Morula</fullName>
+                <default>false</default>
+                <label>Morula</label>
+            </value>
+            <value>
+                <fullName>Degenerate</fullName>
+                <default>false</default>
+                <label>Degenerate</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Early blastocyst</fullName>
+                <default>false</default>
+                <label>Early blastocyst</label>
+            </value>
+            <value>
+                <fullName>Blastocyst</fullName>
+                <default>false</default>
+                <label>Blastocyst</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Number of Women had Children With? --></label>
+    <name>Number_of_Women_had_Children_With__c</name>
+</CustomFieldTranslation>

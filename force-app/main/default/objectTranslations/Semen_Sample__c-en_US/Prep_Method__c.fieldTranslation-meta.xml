@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Prep Method --></label>
+    <name>Prep_Method__c</name>
+    <picklistValues>
+        <masterLabel>0.5mL DG</masterLabel>
+        <translation><!-- 0.5mL DG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>02.Ml DG</masterLabel>
+        <translation><!-- 02.Ml DG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HSA</masterLabel>
+        <translation><!-- HSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Swim Up</masterLabel>
+        <translation><!-- Swim Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wsh 1</masterLabel>
+        <translation><!-- Wsh 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wsh 2</masterLabel>
+        <translation><!-- Wsh 2 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

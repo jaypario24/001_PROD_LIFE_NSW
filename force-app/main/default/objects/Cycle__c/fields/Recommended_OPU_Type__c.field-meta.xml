@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recommended_OPU_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Recommended OPU Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Procedure room with Nitrous</fullName>
+                <default>false</default>
+                <label>Procedure room with Nitrous</label>
+            </value>
+            <value>
+                <fullName>Procedure Room with anaesthetic</fullName>
+                <default>false</default>
+                <label>Procedure Room with anaesthetic</label>
+            </value>
+            <value>
+                <fullName>Main Theatres with anaesthetic Dr</fullName>
+                <default>false</default>
+                <label>Main Theatres with anaesthetic Dr</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

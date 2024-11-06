@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Day_of_Month</fullName>
+    <active>true</active>
+    <errorConditionFormula>DAY(Date_started_trying_to_conceive__c) &lt;&gt;
+(DAY(DATE(YEAR(Date_started_trying_to_conceive__c),MONTH(Date_started_trying_to_conceive__c),1)))</errorConditionFormula>
+    <errorDisplayField>Date_started_trying_to_conceive__c</errorDisplayField>
+    <errorMessage>The date must begin with 01 (Start of Month)</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Immune</fullName>
+        <default>false</default>
+        <label>Immune</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Immune</fullName>
+        <default>false</default>
+        <label>Not Immune</label>
+    </customValue>
+    <masterLabel>Immune/Not Immune</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

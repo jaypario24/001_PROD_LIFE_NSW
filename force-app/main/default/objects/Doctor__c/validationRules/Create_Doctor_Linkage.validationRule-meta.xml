@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Doctor_Linkage</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  Internal_Doctor__c = TRUE,
+  ISBLANK(Internal_Doctor_Linkage__c)
+)</errorConditionFormula>
+    <errorDisplayField>Internal_Doctor__c</errorDisplayField>
+    <errorMessage>You MUST assign the internal doctor linkage if ticking this box, otherwise crucial system functions and eConsents will fail.</errorMessage>
+</ValidationRule>

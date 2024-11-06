@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <description>As the first two letters of the first name and the 1st 2 letters of the last name two text fields allowing for search based on this criteria. Happens at both patient creation and update of patient name.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>BothFirstandLast</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!$Record.FirstName}, 2)&amp;&quot; &quot;&amp;LEFT({!$Record.LastName}, 2)</expression>
+    </formulas>
+    <formulas>
+        <name>FirstTwoFirst</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!$Record.FirstName}, 2)</expression>
+    </formulas>
+    <formulas>
+        <name>FirstTwoLast</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!$Record.LastName}, 2)</expression>
+    </formulas>
+    <interviewLabel>Update Searchable First and Last Name {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Searchable First and Last Name</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Searchable_Name_Fields</name>
+        <label>Update Searchable Name Fields</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <inputAssignments>
+            <field>Searchable_First_2_and_Last_2_Name__c</field>
+            <value>
+                <elementReference>BothFirstandLast</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Searchable_Name_Fields</targetReference>
+        </connector>
+        <object>Contact</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

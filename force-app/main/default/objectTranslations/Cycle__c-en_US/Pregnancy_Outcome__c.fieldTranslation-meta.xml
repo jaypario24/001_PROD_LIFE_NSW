@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Pregnancy Outcome --></label>
+    <name>Pregnancy_Outcome__c</name>
+    <picklistValues>
+        <masterLabel>Biochem</masterLabel>
+        <translation><!-- Biochem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical Pregnancy</masterLabel>
+        <translation><!-- Clinical Pregnancy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ectopic</masterLabel>
+        <translation><!-- Ectopic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heterotopic</masterLabel>
+        <translation><!-- Heterotopic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Live Birth</masterLabel>
+        <translation><!-- Live Birth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Missed Miscarriage</masterLabel>
+        <translation><!-- Missed Miscarriage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Pregnant</masterLabel>
+        <translation><!-- Not Pregnant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Over 20 Week Miscarriage</masterLabel>
+        <translation><!-- Over 20 Week Miscarriage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Positive BHCG</masterLabel>
+        <translation><!-- Positive BHCG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pregnancy Terminated</masterLabel>
+        <translation><!-- Pregnancy Terminated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Still Birth</masterLabel>
+        <translation><!-- Still Birth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Under 20 Week Miscarriage</masterLabel>
+        <translation><!-- Under 20 Week Miscarriage --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

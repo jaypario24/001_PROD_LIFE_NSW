@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cycle_Protocol__c</fullName>
+    <externalId>false</externalId>
+    <label>Cycle Protocol</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>-- None --</fullName>
+                <default>true</default>
+                <label>-- None --</label>
+            </value>
+            <value>
+                <fullName>Down Reg</fullName>
+                <default>false</default>
+                <label>Down Reg</label>
+            </value>
+            <value>
+                <fullName>Boost</fullName>
+                <default>false</default>
+                <label>Boost</label>
+            </value>
+            <value>
+                <fullName>Antagonist</fullName>
+                <default>false</default>
+                <label>Antagonist</label>
+            </value>
+            <value>
+                <fullName>Natural</fullName>
+                <default>false</default>
+                <label>Natural</label>
+            </value>
+            <value>
+                <fullName>HRT</fullName>
+                <default>false</default>
+                <label>HRT</label>
+            </value>
+            <value>
+                <fullName>FSH</fullName>
+                <default>false</default>
+                <label>FSH</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <assignments>
+        <name>assign_dob_unformatted</name>
+        <label>assign_dob_unformatted</label>
+        <locationX>176</locationX>
+        <locationY>242</locationY>
+        <assignmentItems>
+            <assignToReference>dobString_Y</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>getPatient.Birthdate</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Assign_Vars</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Vars</name>
+        <label>Assign_Vars</label>
+        <locationX>176</locationX>
+        <locationY>350</locationY>
+        <assignmentItems>
+            <assignToReference>verificationType_N</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>verification_type_decision</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>firstName_Y</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>getPatient.FirstName</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>lastName_Y</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>getPatient.LastName</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>dobString_Y</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>dob_formatted</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>sex_C</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>getPatient.Sex_First_Letter__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>membershipNumber_Y</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>getPatient.Medicare_Number__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>cardRank_Y</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>getPatient.Issue_Number__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>providerNumber_N</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>059748GJ</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Developer_Medipass_000_Empty_HTTP_Callout_Action_Flow_1</targetReference>
+        </connector>
+    </assignments>
+    <formulas>
+        <name>dob_formatted</name>
+        <dataType>String</dataType>
+        <expression>TEXT(DATE(
+    VALUE(RIGHT({!patient_dobString_M}, 4)),
+    CASE(LEFT({!patient_dobString_M}, FIND(&quot; &quot;, {!patient_dobString_M}) - 1),
+        &quot;January&quot;, 1,
+        &quot;February&quot;, 2,
+        &quot;March&quot;, 3,
+        &quot;April&quot;, 4,
+        &quot;May&quot;, 5,
+        &quot;June&quot;, 6,
+        &quot;July&quot;, 7,
+        &quot;August&quot;, 8,
+        &quot;September&quot;, 9,
+        &quot;October&quot;, 10,
+        &quot;November&quot;, 11,
+        &quot;December&quot;, 12,
+        1
+    ),
+    VALUE(MID({!patient_dobString_M}, FIND(&quot; &quot;, {!patient_dobString_M}) + 1, FIND(&quot;,&quot;, {!patient_dobString_M}) - FIND(&quot; &quot;, {!patient_dobString_M}) - 1))
+))</expression>
+    </formulas>
+    <interviewLabel>Developer_Medipass [001_Medicare_and_Concession_Verification] {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Developer_Medipass [001_Medicare_and_Concession_Verification]</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>getPatient</name>
+        <label>getPatient</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>assign_dob_unformatted</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>getPatient</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+    <subflows>
+        <name>Developer_Medipass_000_Empty_HTTP_Callout_Action_Flow_1</name>
+        <label>Developer_Medipass_[000_Empty_HTTP_Callout_Action] Flow 1</label>
+        <locationX>176</locationX>
+        <locationY>458</locationY>
+        <flowName>Developer_Medipass_000_Empty_HTTP_Callout_Action</flowName>
+        <inputAssignments>
+            <name>body</name>
+            <value>
+                <elementReference>varText_Body</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>header1value</name>
+            <value>
+                <stringValue>Bearer 66c2eb34115719ed02cdddcb:EijAJrzKLM78XFTzcPkrU2fNnudFDHfU2VAfHRsUfQA</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>header2value</name>
+            <value>
+                <stringValue>application/json</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>header3value</name>
+            <value>
+                <stringValue>pariosolutions-web</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>http_method</name>
+            <value>
+                <stringValue>POST</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>url</name>
+            <value>
+                <stringValue>https://api-au.medipass.io/v3/medicare/verify</stringValue>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
+    <textTemplates>
+        <name>varText_Body</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>{
+    &quot;verificationType&quot;: &quot;{!verificationType_N}&quot;,
+    &quot;firstName&quot;: &quot;{!firstName_Y}&quot;,
+    &quot;lastName&quot;: &quot;{!lastName_Y}&quot;,
+    &quot;dobString&quot;: &quot;{!dobString_Y}&quot;,
+    &quot;sex&quot;: &quot;{!sex_C}&quot;,
+    &quot;membershipNumber&quot;: &quot;{!membershipNumber_Y}&quot;,
+    &quot;cardRank&quot;: &quot;{!cardRank_Y}&quot;,
+    &quot;providerNumber&quot;: &quot;{!providerNumber_N}&quot;
+}</text>
+    </textTemplates>
+    <variables>
+        <name>cardRank_Y</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>dobString_Y</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>firstName_Y</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>lastName_Y</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>membershipNumber_Y</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>patient_dobString_M</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>providerNumber_N</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>serviceDate_N</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>sex_C</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>varBaseURL</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>{Base URL}/v3/medicare/verify</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>verification_type_decision</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>verificationType_N</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

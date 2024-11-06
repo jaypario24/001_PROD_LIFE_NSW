@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Period of Consent to Use Sample (Months) --></label>
+    <name>Period_of_Consent_to_Use_Sample__c</name>
+</CustomFieldTranslation>

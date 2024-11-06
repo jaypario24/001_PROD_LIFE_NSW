@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Results Entry Witness --></label>
+    <name>Results_Entry_Witness__c</name>
+    <relationshipLabel><!-- Genetic Material Events (Results Entry Witness) --></relationshipLabel>
+</CustomFieldTranslation>

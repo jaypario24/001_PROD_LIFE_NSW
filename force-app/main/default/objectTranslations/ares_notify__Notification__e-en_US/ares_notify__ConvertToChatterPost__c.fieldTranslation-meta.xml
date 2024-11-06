@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Convert to Chatter Post --></label>
+    <name>ares_notify__ConvertToChatterPost__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PR_ECTOP__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( TEXT(CYCLE_ID__r.Pregnancy_Outcome__c) =&quot;Ectopic&quot;,&quot;e&quot;, 
+IF(TEXT(CYCLE_ID__r.Pregnancy_Outcome__c) = &quot;Heterotopic&quot;, &quot;h&quot;,&quot;&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>PR_ECTOP</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

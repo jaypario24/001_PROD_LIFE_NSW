@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cycle</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cycles</value>
+    </caseValues>
+    <layouts>
+        <layout>Egg Freeze</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FET Cycle</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>IVF/VOT Cycle</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lab Only Cycles</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OI Cycle</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Clinical Note --></label>
+        <name>Add_Clincal_Note</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Meds --></label>
+        <name>Add_Meds</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Pathology Request --></label>
+        <name>Add_Pathology_Request</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Result --></label>
+        <name>Add_Result</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Apply Cycle Protocol --></label>
+        <name>Apply_Cycle_Protocol</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Semen Sample --></label>
+        <name>BETA_Create_Sample</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Biopsy Embryos --></label>
+        <name>Biopsy_Embryos</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Book Bloods, Scans &amp; Transfers --></label>
+        <name>Book_Bloods_Scans_Transfers</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Cell Wash --></label>
+        <name>Cell_Wash</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change Dosage --></label>
+        <name>Change_Dosage</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change Over --></label>
+        <name>Change_Over</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Consent --></label>
+        <name>Create_Consent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Doctor Task --></label>
+        <name>Create_Doctor_To_Do</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create FC Consent --></label>
+        <name>Create_FC_Consent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Filgrastim Event --></label>
+        <name>Create_Filgrastim_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Invoice --></label>
+        <name>Create_Invoice</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create OPU --></label>
+        <name>Create_OPU</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Post Thaw Expansion --></label>
+        <name>Create_Post_Thaw_Expansion</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Registration Form --></label>
+        <name>Create_Registration_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Delete Meds --></label>
+        <name>Delete_Meds</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Denude/Trim --></label>
+        <name>Denude_Trim</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Donate Eggs --></label>
+        <name>Donate_Eggs</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Edit Meds --></label>
+        <name>Edit_Meds</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Embryo Assessment --></label>
+        <name>Embryo_Assessment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- End Meds --></label>
+        <name>End_Meds</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Fert Check --></label>
+        <name>Fert_Check</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Freeze Eggs --></label>
+        <name>Freeze_Eggs</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Freeze Embryos --></label>
+        <name>Freeze_Embryos</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Glue Move --></label>
+        <name>Glue_Move</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Inseminate Eggs --></label>
+        <name>Inseminate_Eggs</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LAH --></label>
+        <name>LAH</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>Log_A_Call_cycle</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log Adverse Event --></label>
+        <name>Log_Adverse_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log Cycle Outcome --></label>
+        <name>Log_Cycle_Outcome</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log Day 1 --></label>
+        <name>Log_Day_1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log IUI --></label>
+        <name>Log_IUI</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Manage Documents --></label>
+        <name>Manage_Documents</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>New_To_Do</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- PRP Infusion Event --></label>
+        <name>PRP_Infusion_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- PRP Prep Event --></label>
+        <name>PRP_Prep_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Process Financials --></label>
+        <name>Process_Finanicals</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Public Doctor Task --></label>
+        <name>Public_Doctor_Task</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send SMS --></label>
+        <name>Send_SMS</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Set Price Type &amp; Medicare Eligibility --></label>
+        <name>Set_Price_Type_Medicare_Eligibility</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Start Meds --></label>
+        <name>Start_Meds</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task for Doctor --></label>
+        <name>Task_for_Doctor</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Thaw Eggs --></label>
+        <name>Thaw_Eggs</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Thaw Embryos --></label>
+        <name>Thaw_Embryos</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Transfer Embryos --></label>
+        <name>Transfer_Embryos</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Trigger Patient --></label>
+        <name>Trigger_Patient</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- This cycle type is for patients undergoing two stimulation protocols within a single menstrual cycle, aimed at increasing the number of eggs retrieved for fertilization. --></description>
+        <label><!-- Duo Stim --></label>
+        <name>Duo_Stim</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This cycle type is used for patients who are undergoing ovarian stimulation to retrieve and freeze their eggs for future use. --></description>
+        <label><!-- Egg Freeze Cycle --></label>
+        <name>Egg_Freeze_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This cycle type is for transferring previously frozen embryos into the uterus, typically following a natural or hormone-regulated preparation of the endometrium. --></description>
+        <label><!-- FET Cycle --></label>
+        <name>FET_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This cycle type is for recipients who are receiving eggs from a fresh donor cycle, involving synchronization of the donor’s and recipient’s cycles for immediate fertilization and transfer, this cycle type will create both the donor and recipient cycles. --></description>
+        <label><!-- Fresh Egg Donor Cycle --></label>
+        <name>Fresh_Egg_Donor_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This cycle type is for patients undergoing a procedure where sperm is directly inserted into the uterus around the time of ovulation to enhance the chances of fertilization. --></description>
+        <label><!-- IUI Cycle --></label>
+        <name>IUI_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This cycle type is for patients undergoing a process where eggs are retrieved from the ovaries and fertilized by sperm in a laboratory, with resulting embryos transferred to the uterus. --></description>
+        <label><!-- IVF Cycle --></label>
+        <name>IVF_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This cycle type is for patients who require laboratory services only, such as thawing of embryos for genetic testing, without immediate plans for fertilization or transfer. --></description>
+        <label><!-- Lab Only Cycle --></label>
+        <name>Lab_Only_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This cycle type is for patients who are undergoing medication-assisted induction of ovulation, often followed by timed intercourse or IUI. --></description>
+        <label><!-- OI Cycle --></label>
+        <name>OI_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This cycle type should be used for both parents who intend to use gametes produced in this cycle with a surrogate or for a gestational cycle --></description>
+        <label><!-- Surrogacy Cycle --></label>
+        <name>Surrogacy_Cycle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This cycle type is for patients receiving vitrified (frozen) oocytes that are thawed and fertilized, with resulting embryos transferred to the uterus. --></description>
+        <label><!-- VOT Cycle --></label>
+        <name>VOT_Cycle</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The patient must be female. --></errorMessage>
+        <name>Must_be_Female</name>
+    </validationRules>
+</CustomObjectTranslation>

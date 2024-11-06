@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ART_REASON__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( PARENT_SEX__c  &lt;&gt; &quot;1&quot;, NULL, 
+IF( FERT_PRES__c = &quot;2&quot;,&quot;y&quot;,&quot;n&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ART_REASON</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

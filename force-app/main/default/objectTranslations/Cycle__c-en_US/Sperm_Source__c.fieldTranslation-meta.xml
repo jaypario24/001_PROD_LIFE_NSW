@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sperm Source --></label>
+    <name>Sperm_Source__c</name>
+    <picklistValues>
+        <masterLabel>1 = A male intending parent</masterLabel>
+        <translation><!-- 1 = A male intending parent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2 = A sperm donor outside of the intending parents</masterLabel>
+        <translation><!-- 2 = A sperm donor outside of the intending parents --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

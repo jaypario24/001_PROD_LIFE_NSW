@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Protocol__c</fullName>
+    <externalId>false</externalId>
+    <label>Protocol DEPRECIATED</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Antagonist</fullName>
+                <default>false</default>
+                <label>Antagonist</label>
+            </value>
+            <value>
+                <fullName>Pill Antagonist</fullName>
+                <default>false</default>
+                <label>Pill Antagonist</label>
+            </value>
+            <value>
+                <fullName>Boost</fullName>
+                <default>false</default>
+                <label>Flare/Boost</label>
+            </value>
+            <value>
+                <fullName>Natural</fullName>
+                <default>false</default>
+                <label>Natural</label>
+            </value>
+            <value>
+                <fullName>HRT</fullName>
+                <default>false</default>
+                <label>HRT</label>
+            </value>
+            <value>
+                <fullName>Down Reg</fullName>
+                <default>false</default>
+                <label>Down Reg</label>
+            </value>
+            <value>
+                <fullName>FSH</fullName>
+                <default>false</default>
+                <label>FSH</label>
+            </value>
+            <value>
+                <fullName>Luteal Phase</fullName>
+                <default>false</default>
+                <label>Luteal Phase</label>
+            </value>
+            <value>
+                <fullName>Duostim #1 Antagonist</fullName>
+                <default>false</default>
+                <label>Duostim #1 Antagonist</label>
+            </value>
+            <value>
+                <fullName>Duostim #1 Down Regulation</fullName>
+                <default>false</default>
+                <label>Duostim #1 Down Regulation</label>
+            </value>
+            <value>
+                <fullName>Duostim #1 Flare/Boost</fullName>
+                <default>false</default>
+                <label>Duostim #1 Flare/Boost</label>
+            </value>
+            <value>
+                <fullName>Duostim #2  Antagoinist</fullName>
+                <default>false</default>
+                <label>Duostim #2  Antagoinist</label>
+            </value>
+            <value>
+                <fullName>Custom</fullName>
+                <default>false</default>
+                <label>Custom</label>
+            </value>
+            <value>
+                <fullName>Letrozole</fullName>
+                <default>false</default>
+                <label>Letrozole</label>
+            </value>
+            <value>
+                <fullName>Ministim</fullName>
+                <default>false</default>
+                <label>Ministim</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

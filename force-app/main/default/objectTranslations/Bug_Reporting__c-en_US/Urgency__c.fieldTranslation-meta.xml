@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Urgency --></label>
+    <name>Urgency__c</name>
+    <picklistValues>
+        <masterLabel>Normal (Can be resolved with Weeks)</masterLabel>
+        <translation><!-- Normal (Can be resolved with Weeks) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Urgent (Mission Critical Must be resolved with 2 Days)</masterLabel>
+        <translation><!-- Urgent (Mission Critical Must be resolved with 2 Days) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

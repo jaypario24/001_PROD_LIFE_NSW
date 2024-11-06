@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Appearance__c</fullName>
+    <externalId>false</externalId>
+    <label>Appearance</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Normal</fullName>
+                <default>false</default>
+                <label>Normal</label>
+            </value>
+            <value>
+                <fullName>Cloudy</fullName>
+                <default>false</default>
+                <label>Cloudy</label>
+            </value>
+            <value>
+                <fullName>Gel Bodies</fullName>
+                <default>false</default>
+                <label>Gel Bodies</label>
+            </value>
+            <value>
+                <fullName>Clear</fullName>
+                <default>false</default>
+                <label>Clear</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

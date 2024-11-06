@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Current Relationship Status --></label>
+    <name>Current_Relationship_Status__c</name>
+    <picklistValues>
+        <masterLabel>Domestic Relationship</masterLabel>
+        <translation><!-- Domestic Relationship --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Married</masterLabel>
+        <translation><!-- Married --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Never Married</masterLabel>
+        <translation><!-- Never Married --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Registered Relationship</masterLabel>
+        <translation><!-- Registered Relationship --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Widowed</masterLabel>
+        <translation><!-- Widowed --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

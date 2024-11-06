@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If this field is checked, Google Doc will be deleted at the end of the process --></help>
+    <label><!-- Delete Google Doc After Merge --></label>
+    <name>docb__Delete_Google_Doc_After_Merge__c</name>
+</CustomFieldTranslation>

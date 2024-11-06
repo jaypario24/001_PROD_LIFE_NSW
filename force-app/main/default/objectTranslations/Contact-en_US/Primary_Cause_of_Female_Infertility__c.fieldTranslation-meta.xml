@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Cause of Female Infertility --></label>
+    <name>Primary_Cause_of_Female_Infertility__c</name>
+    <picklistValues>
+        <masterLabel>Adenomyosis</masterLabel>
+        <translation><!-- Adenomyosis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Age</masterLabel>
+        <translation><!-- Age --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Egg donor( ?covered by prev field)</masterLabel>
+        <translation><!-- Egg donor( ?covered by prev field) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Endometrial defect</masterLabel>
+        <translation><!-- Endometrial defect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Endometriosis</masterLabel>
+        <translation><!-- Endometriosis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mild male factor</masterLabel>
+        <translation><!-- Mild male factor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poor responder</masterLabel>
+        <translation><!-- Poor responder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Severe male factor</masterLabel>
+        <translation><!-- Severe male factor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social</masterLabel>
+        <translation><!-- Social --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tubal</masterLabel>
+        <translation><!-- Tubal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uterine anomaly</masterLabel>
+        <translation><!-- Uterine anomaly --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

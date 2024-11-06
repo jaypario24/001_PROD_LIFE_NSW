@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Age_Birthday_Treating_Doctor__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT( Patient__r.Age__c )&amp;&quot; &quot;&amp;&quot;-&quot;&amp;&quot; &quot;&amp;TEXT(DAY(Patient__r.Birthdate)) &amp; &quot;/&quot; &amp; TEXT(MONTH(Patient__r.Birthdate)) &amp; &quot;/&quot; &amp; TEXT(YEAR(Patient__r.Birthdate))&amp;&quot; &quot;&amp;&quot;-&quot;&amp;&quot; &quot;&amp; Doctor_Initiating_Cycle__r.Name</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Age - Birthdate - Treating Doctor</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

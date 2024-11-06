@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowCategory xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowCategoryItems>
+        <flow>Add_New_Medications_Cycle_Subflow</flow>
+    </flowCategoryItems>
+    <flowCategoryItems>
+        <flow>Copy_New_Cycle</flow>
+    </flowCategoryItems>
+    <flowCategoryItems>
+        <flow>New_Cycle</flow>
+    </flowCategoryItems>
+    <masterLabel>New_Cycle</masterLabel>
+</FlowCategory>

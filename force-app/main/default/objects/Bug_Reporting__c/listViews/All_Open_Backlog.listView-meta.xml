@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Open_Backlog</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Backlog_Type__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Description_of_Issue__c</columns>
+    <columns>Urgency__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Open,Awaiting Client Response</value>
+    </filters>
+    <label>All Open Backlog</label>
+</ListView>

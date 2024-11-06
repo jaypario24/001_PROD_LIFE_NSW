@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Format of the attached or downloaded document. --></help>
+    <label><!-- Output format --></label>
+    <name>docb__Output_format__c</name>
+    <picklistValues>
+        <masterLabel>docx</masterLabel>
+        <translation><!-- docx --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>html</masterLabel>
+        <translation><!-- html --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>odt</masterLabel>
+        <translation><!-- odt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>pdf</masterLabel>
+        <translation><!-- pdf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>rtf</masterLabel>
+        <translation><!-- rtf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>txt</masterLabel>
+        <translation><!-- txt --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

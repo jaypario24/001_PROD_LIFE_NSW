@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Result</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Results</value>
+    </caseValues>
+    <layouts>
+        <layout>Result Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New To Do --></label>
+        <name>New_To_Do</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Patient, Cycle --></description>
+        <label><!-- Antral Follicle Count --></label>
+        <name>Antral_Follicle_Count</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Cycle --></description>
+        <label><!-- Blood Test --></label>
+        <name>Blood_Test</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Cycle --></description>
+        <label><!-- Follicular Scan --></label>
+        <name>Follicular_Sacn</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Patient --></description>
+        <label><!-- ART Screen --></label>
+        <name>Infectious_Screen</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Patient, Cycle --></description>
+        <label><!-- Other Result --></label>
+        <name>Other_Result</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PRP Scan --></label>
+        <name>PRP_Scan</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Patient --></description>
+        <label><!-- Out of Cycle Bloods --></label>
+        <name>Pre_Conception_Pathology</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Cycle --></description>
+        <label><!-- Pregnancy Scan Result --></label>
+        <name>Pregnancy_Scan</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Cycle --></description>
+        <label><!-- Pregnancy Test Result --></label>
+        <name>Pregnancy_Test</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Patient --></description>
+        <label><!-- Prepair Bloods --></label>
+        <name>Prepair_Bloods</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Patient --></description>
+        <label><!-- Recurrent Implantation Failure --></label>
+        <name>Recurrent_Implantation_Failure</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Patient --></description>
+        <label><!-- Scan --></label>
+        <name>Scan</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Patient --></description>
+        <label><!-- Semen Analysis Result --></label>
+        <name>Semen_Analysis</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Testicular Work Up/Unexplained Oligospermia --></label>
+        <name>Testicular_Work_Up_Unexplained_Oligospermia</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Patient --></description>
+        <label><!-- Thrombophilia Screening --></label>
+        <name>Thrombophilia_Screening</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

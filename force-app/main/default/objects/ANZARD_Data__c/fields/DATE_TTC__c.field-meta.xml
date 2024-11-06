@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DATE_TTC__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( PARENT_SEX__c = &quot;1&quot; &amp;&amp;  CYCLE_TYPE__c = &quot;1&quot; &amp;&amp;  STIM_1ST__c = &quot;y&quot; , DATE(YEAR(CYCLE_ID__r.Patient__r.Date_started_trying_to_conceive__c ),MONTH(CYCLE_ID__r.Patient__r.Date_started_trying_to_conceive__c ),1) ,NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>DATE_TTC</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

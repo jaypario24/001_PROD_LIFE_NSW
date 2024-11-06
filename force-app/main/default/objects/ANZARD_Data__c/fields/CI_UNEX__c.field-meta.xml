@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CI_UNEX__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(PARENT_SEX__c = &quot;2&quot; || PARENT_SEX__c = &quot;3&quot;, NULL,
+IF(PARENT_SEX__c = &quot;1&quot; &amp;&amp; CYCLE_TYPE__c = &quot;8&quot;, NULL,
+IF(CI_TUBE__c = &quot;y&quot; || CI_ENDO__c = &quot;y&quot; || CI_OTH__c = &quot;y&quot; || CI_MALE__c = &quot;y&quot;, &quot;n&quot;,
+IF(ART_REASON__c = &quot;y&quot;, &quot;n&quot;, &quot;y&quot;))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CI_UNEX</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

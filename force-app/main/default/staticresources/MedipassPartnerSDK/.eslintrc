@@ -1,0 +1,40 @@
+ {
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+   },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:react/recommended",
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "sourceType": "module"
+  },
+  "ignorePatterns": ["**/dist"],
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "semi": ["error", "always"],
+    "react/react-in-jsx-scope": "off",
+    "react/no-unknown-property": "off",
+    "react/prop-types": "off",
+    "no-unused-vars": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "bracketSpacing": true,
+        "bracketSameLine": false,
+        "printWidth": 120,
+        "singleQuote": true,
+        "trailingComma": "all",
+        "arrowParens": "avoid"
+      }
+    ]
+  }
+}

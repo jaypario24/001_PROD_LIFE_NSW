@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Patients_for_Registration_Form_Audit</fullName>
+    <columns>Patient_ID_Display_Formula__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.PHONE3</columns>
+    <columns>Partner__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Is_Test_Patient__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Patients for Registration Form Audit</label>
+    <sharedTo>
+        <group>Life_Fertility_Admin</group>
+    </sharedTo>
+</ListView>

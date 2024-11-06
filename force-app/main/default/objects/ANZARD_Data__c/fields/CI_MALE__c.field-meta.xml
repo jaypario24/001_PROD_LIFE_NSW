@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CI_MALE__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(PARENT_SEX__c = &quot;2&quot; || PARENT_SEX__c = &quot;3&quot;, NULL,
+IF(PARENT_SEX__c = &quot;1&quot; &amp;&amp; CYCLE_TYPE__c = &quot;8&quot;, NULL,
+IF(ART_REASON__c = &quot;y&quot;, &quot;n&quot;,
+IF(ISBLANK(LEFT(TEXT(CYCLE_ID__r.Patient__r.Is_Infertility_due_to_Male_Factors__c), 1)), &quot;u&quot;, LEFT(TEXT(CYCLE_ID__r.Patient__r.Is_Infertility_due_to_Male_Factors__c), 1)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CI_MALE</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

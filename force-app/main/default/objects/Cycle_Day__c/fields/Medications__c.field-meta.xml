@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Medications__c</fullName>
+    <externalId>false</externalId>
+    <formula>TRIM(
+  IF(
+    NOT(ISBLANK(Medication_1__c)),
+    Medication_1__c,
+    &quot;&quot;
+  ) &amp;
+  IF(
+    AND(
+      NOT(ISBLANK(Medication_1__c)),
+      NOT(ISBLANK(Medication_2__c))
+    ),
+    &quot;, &quot;,
+    &quot;&quot;
+  ) &amp;
+  IF(
+    NOT(ISBLANK(Medication_2__c)),
+    Medication_2__c,
+    &quot;&quot;
+  ) &amp;
+  IF(
+    AND(
+      OR(
+        NOT(ISBLANK(Medication_1__c)),
+        NOT(ISBLANK(Medication_2__c))
+      ),
+      NOT(ISBLANK(Medication_3__c))
+    ),
+    &quot;, &quot;,
+    &quot;&quot;
+  ) &amp;
+  IF(
+    NOT(ISBLANK(Medication_3__c)),
+    Medication_3__c,
+    &quot;&quot;
+  ) &amp;
+  IF(
+    AND(
+      OR(
+        NOT(ISBLANK(Medication_1__c)),
+        NOT(ISBLANK(Medication_2__c)),
+        NOT(ISBLANK(Medication_3__c))
+      ),
+      NOT(ISBLANK(Medication_4__c))
+    ),
+    &quot;, &quot;,
+    &quot;&quot;
+  ) &amp;
+  IF(
+    NOT(ISBLANK(Medication_4__c)),
+    Medication_4__c,
+    &quot;&quot;
+  ) &amp;
+  IF(
+    AND(
+      OR(
+        NOT(ISBLANK(Medication_1__c)),
+        NOT(ISBLANK(Medication_2__c)),
+        NOT(ISBLANK(Medication_3__c)),
+        NOT(ISBLANK(Medication_4__c))
+      ),
+      NOT(ISBLANK(Medication_5__c))
+    ),
+    &quot;, &quot;,
+    &quot;&quot;
+  ) &amp;
+  IF(
+    NOT(ISBLANK(Medication_5__c)),
+    Medication_5__c,
+    &quot;&quot;
+  ) &amp;
+  IF(
+    AND(
+      OR(
+        NOT(ISBLANK(Medication_1__c)),
+        NOT(ISBLANK(Medication_2__c)),
+        NOT(ISBLANK(Medication_3__c)),
+        NOT(ISBLANK(Medication_4__c)),
+        NOT(ISBLANK(Medication_5__c))
+      ),
+      NOT(ISBLANK(Medication_6__c))
+    ),
+    &quot;, &quot;,
+    &quot;&quot;
+  ) &amp;
+  IF(
+    NOT(ISBLANK(Medication_6__c)),
+    Medication_6__c,
+    &quot;&quot;
+  ) &amp;
+  IF(
+    AND(
+      OR(
+        NOT(ISBLANK(Medication_1__c)),
+        NOT(ISBLANK(Medication_2__c)),
+        NOT(ISBLANK(Medication_3__c)),
+        NOT(ISBLANK(Medication_4__c)),
+        NOT(ISBLANK(Medication_5__c)),
+        NOT(ISBLANK(Medication_6__c))
+      ),
+      NOT(ISBLANK(Medication_7__c))
+    ),
+    &quot;, &quot;,
+    &quot;&quot;
+  ) &amp;
+  IF(
+    NOT(ISBLANK(Medication_7__c)),
+    Medication_7__c,
+    &quot;&quot;
+  ) &amp;
+  IF(
+    AND(
+      OR(
+        NOT(ISBLANK(Medication_1__c)),
+        NOT(ISBLANK(Medication_2__c)),
+        NOT(ISBLANK(Medication_3__c)),
+        NOT(ISBLANK(Medication_4__c)),
+        NOT(ISBLANK(Medication_5__c)),
+        NOT(ISBLANK(Medication_6__c)),
+        NOT(ISBLANK(Medication_7__c))
+      ),
+      NOT(ISBLANK(Medication_8__c))
+    ),
+    &quot;, &quot;,
+    &quot;&quot;
+  ) &amp;
+  IF(
+    NOT(ISBLANK(Medication_8__c)),
+    Medication_8__c,
+    &quot;&quot;
+  )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Medications</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

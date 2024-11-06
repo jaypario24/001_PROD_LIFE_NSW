@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>IVF</fullName>
+        <default>false</default>
+        <label>IVF</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard ICSI</fullName>
+        <default>false</default>
+        <label>Standard ICSI</label>
+    </customValue>
+    <customValue>
+        <fullName>HA ICSI</fullName>
+        <default>false</default>
+        <label>HA ICSI</label>
+    </customValue>
+    <customValue>
+        <fullName>1/2 ICSI 1/2 IVF</fullName>
+        <default>false</default>
+        <label>1/2 ICSI 1/2 IVF</label>
+    </customValue>
+    <customValue>
+        <fullName>ICSI plus Calcium Activation</fullName>
+        <default>false</default>
+        <label>ICSI plus Calcium Activation</label>
+    </customValue>
+    <customValue>
+        <fullName>ICSI + HA ICSI plus Calcium Activation</fullName>
+        <default>false</default>
+        <label>ICSI + HA ICSI plus Calcium Activation</label>
+    </customValue>
+    <customValue>
+        <fullName>1/2 IVF 1/2 HA ICSI</fullName>
+        <default>false</default>
+        <label>1/2 IVF 1/2 HA ICSI</label>
+    </customValue>
+    <customValue>
+        <fullName>1/2 IVF 1/2 HA ICSI plus Calcium Activation</fullName>
+        <default>false</default>
+        <label>1/2 IVF 1/2 HA ICSI plus Calcium Activation</label>
+    </customValue>
+    <customValue>
+        <fullName>ICSI plus HA ICSI plus Calcium Activation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ICSI plus HA ICSI plus Calcium Activation</label>
+    </customValue>
+    <masterLabel>Insemination Method</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

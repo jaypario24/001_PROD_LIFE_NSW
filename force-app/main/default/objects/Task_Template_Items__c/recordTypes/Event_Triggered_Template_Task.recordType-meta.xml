@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Triggered_Template_Task</fullName>
+    <active>true</active>
+    <label>Event Triggered Template Task</label>
+    <picklistValues>
+        <picklist>Step_Type__c</picklist>
+        <values>
+            <fullName>Blood Test</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blood and Scan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pregnancy Test</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Task_Allocated_to__c</picklist>
+        <values>
+            <fullName>Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doctors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laboratory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nursing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

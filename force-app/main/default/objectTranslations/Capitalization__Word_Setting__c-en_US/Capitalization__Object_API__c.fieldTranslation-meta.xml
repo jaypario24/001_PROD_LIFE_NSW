@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Object API --></help>
+    <label><!-- Object API --></label>
+    <name>Capitalization__Object_API__c</name>
+</CustomFieldTranslation>

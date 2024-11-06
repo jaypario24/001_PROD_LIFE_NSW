@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cell Wash Scientist --></label>
+    <name>Cell_Wash_Scientist__c</name>
+    <relationshipLabel><!-- Embryos (Cell Wash Scientist) --></relationshipLabel>
+</CustomFieldTranslation>

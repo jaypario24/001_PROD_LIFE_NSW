@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <description>This flow has been developed to overcome a system limitation whereby birth dates cannot be searched. When a birth date field is updated on a contact or the contact is created a text field is updated with that birthdate to allow for searching by Einstein</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>TextBirthdate</name>
+        <dataType>String</dataType>
+        <expression>LPAD(TEXT(DAY({!$Record.Birthdate})), 2, &apos;0&apos;) &amp; &quot;/&quot; &amp;
+LPAD(TEXT(MONTH({!$Record.Birthdate})), 2, &apos;0&apos;) &amp; &quot;/&quot; &amp;
+TEXT(YEAR({!$Record.Birthdate}))</expression>
+    </formulas>
+    <interviewLabel>Update Searchable Birthdate {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Searchable Birthdate</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Searchable_Bithdate</name>
+        <label>Update Searchable Bithdate</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <inputAssignments>
+            <field>Birthdate_Searchable__c</field>
+            <value>
+                <elementReference>TextBirthdate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Searchable_Bithdate</targetReference>
+        </connector>
+        <object>Contact</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

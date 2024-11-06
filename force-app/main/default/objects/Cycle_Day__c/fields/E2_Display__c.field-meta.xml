@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2_Display__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    AND(
+        ISBLANK(Booked_E2__c),
+        ISBLANK(E2__c)
+    ),
+    &apos;&apos;,
+    IF(
+        NOT(ISBLANK(E2__c)),
+        IF(E2__c = 0, Booked_E2__c, TEXT(E2__c)),
+        Booked_E2__c
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>E2</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

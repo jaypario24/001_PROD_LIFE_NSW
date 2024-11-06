@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>1</activeVersionNumber>
+    <description>Filters the checklist tasks that are related to a cycle and allows for the addition of checklist tasks follow-up tasks and tasks for doctors related to the cycle.</description>
+    <masterLabel>Display Checklist Tasks on Cycle</masterLabel>
+</FlowDefinition>

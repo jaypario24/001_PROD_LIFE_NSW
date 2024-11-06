@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PREG_20W__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( TEXT(CYCLE_ID__r.Patient__r.Any_Pregnancies_of_20_Weeks_Gestation__c) = NULL, &quot;u&quot;, LEFT(TEXT(CYCLE_ID__r.Patient__r.Any_Pregnancies_of_20_Weeks_Gestation__c),1))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>PREG_20W</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

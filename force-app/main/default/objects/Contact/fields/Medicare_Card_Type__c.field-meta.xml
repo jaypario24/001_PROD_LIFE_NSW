@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Medicare_Card_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Medicare Card Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Green (Standard)</fullName>
+                <default>false</default>
+                <label>Green (Standard)</label>
+            </value>
+            <value>
+                <fullName>Blue (Interim)</fullName>
+                <default>false</default>
+                <label>Blue (Interim)</label>
+            </value>
+            <value>
+                <fullName>Yellow (Reciprocal)</fullName>
+                <default>false</default>
+                <label>Yellow (Reciprocal)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

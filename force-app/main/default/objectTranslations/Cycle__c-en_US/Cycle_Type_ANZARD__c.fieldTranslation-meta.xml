@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cycle Type ANZARD --></label>
+    <name>Cycle_Type_ANZARD__c</name>
+    <picklistValues>
+        <masterLabel>1 = Autologous: Female-male couple, single female, female-female couple</masterLabel>
+        <translation><!-- 1 = Autologous: Female-male couple, single female, female-female couple --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2 = Non-autologous: Female-female couple</masterLabel>
+        <translation><!-- 2 = Non-autologous: Female-female couple --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3 = Non-autologous: Oocyte/embryo donation</masterLabel>
+        <translation><!-- 3 = Non-autologous: Oocyte/embryo donation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4 = Non-autologous: Oocyte recipient</masterLabel>
+        <translation><!-- 4 = Non-autologous: Oocyte recipient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5 = Non-autologous: Embryo recipient</masterLabel>
+        <translation><!-- 5 = Non-autologous: Embryo recipient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6 = Surrogacy – intending parent(s): Oocyte/embryo provision</masterLabel>
+        <translation><!-- 6 = Surrogacy – intending parent(s): Oocyte/embryo provision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7 = Surrogacy – gestational carrier: Transfer (or thawing with the intention of transfer)</masterLabel>
+        <translation><!-- 7 = Surrogacy – gestational carrier: Transfer (or thawing with the intention of transfer) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8 = Laboratory-only cycle</masterLabel>
+        <translation><!-- 8 = Laboratory-only cycle --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

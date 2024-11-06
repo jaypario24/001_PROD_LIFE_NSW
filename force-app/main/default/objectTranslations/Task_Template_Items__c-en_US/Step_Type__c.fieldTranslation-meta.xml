@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Step Type --></label>
+    <name>Step_Type__c</name>
+    <picklistValues>
+        <masterLabel>Blood Test</masterLabel>
+        <translation><!-- Blood Test --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blood and Scan</masterLabel>
+        <translation><!-- Blood and Scan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discussion Point</masterLabel>
+        <translation><!-- Discussion Point --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medication</masterLabel>
+        <translation><!-- Medication --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pregnancy Test</masterLabel>
+        <translation><!-- Pregnancy Test --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procedure</masterLabel>
+        <translation><!-- Procedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scan</masterLabel>
+        <translation><!-- Scan --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Embryo Batch</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Embryo Batches</value>
+    </caseValues>
+    <layouts>
+        <layout>Embryo Batch Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Export Details --></label>
+        <name>Add_Export_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Bulk Discard --></label>
+        <name>Bulk_Discard</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Donate Material --></label>
+        <name>Donate_Material</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Extend Storage --></label>
+        <name>Extend_Storage</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update PGT Results --></label>
+        <name>Update_PGT_Results</name>
+    </quickActions>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

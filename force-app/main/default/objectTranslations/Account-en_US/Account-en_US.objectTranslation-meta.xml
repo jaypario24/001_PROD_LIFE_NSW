@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Household</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Households</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Accountlookupfieldset --></label>
+        <name>l_lookup__accountlookupfieldset</name>
+    </fieldSets>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Account Summary --></label>
+            <section>Account Summary</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add New Business Contact --></label>
+        <name>Add_New_Business_COntact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add New Patient or Donor --></label>
+        <name>Add_Patient_or_Donor</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Consent --></label>
+        <name>Add_Principal_Consent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Registration Form --></label>
+        <name>Create_Registration_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Import Genetic Material --></label>
+        <name>Import_Genetic_Material</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Household --></label>
+        <name>New_Household</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Contact Account (Use for External Contacts) --></label>
+        <name>Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Regular Patient Household --></label>
+        <name>Regular_Patient_Household</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- FT_Generate_Documents_Lightning --></label>
+        <name>Form_Builder__FT_Generate_Documents_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- FT_Generate_Multiple_PDF --></label>
+        <name>Form_Builder__FT_Generate_Multiple_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- FT_Generate_PDF --></label>
+        <name>Form_Builder__FT_Generate_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Titan_Sign_Wizard --></label>
+        <name>Form_Builder__Titan_Sign_Wizard</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New --></label>
+        <name>New</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Run_WebServices --></label>
+        <name>webservicer__Run_WebServices</name>
+    </webLinks>
+</CustomObjectTranslation>

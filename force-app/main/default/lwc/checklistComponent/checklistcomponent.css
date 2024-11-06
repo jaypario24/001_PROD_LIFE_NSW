@@ -1,0 +1,12 @@
+.drag-container {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.drag-item {
+    cursor: move;
+    border: 1px solid #d1d1d1;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+}

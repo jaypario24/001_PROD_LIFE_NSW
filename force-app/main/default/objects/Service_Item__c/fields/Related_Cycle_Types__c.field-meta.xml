@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Cycle_Types__c</fullName>
+    <externalId>false</externalId>
+    <label>Related Cycle Types?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IVF Cycle</fullName>
+                <default>false</default>
+                <label>IVF Cycle</label>
+            </value>
+            <value>
+                <fullName>FET Cycle</fullName>
+                <default>false</default>
+                <label>FET Cycle</label>
+            </value>
+            <value>
+                <fullName>Duo Stim</fullName>
+                <default>false</default>
+                <label>Duo Stim</label>
+            </value>
+            <value>
+                <fullName>Egg Freeze Cycle</fullName>
+                <default>false</default>
+                <label>Egg Freeze Cycle</label>
+            </value>
+            <value>
+                <fullName>Fresh Egg Donor Cycle</fullName>
+                <default>false</default>
+                <label>Fresh Egg Donor Cycle</label>
+            </value>
+            <value>
+                <fullName>IUI Cycle</fullName>
+                <default>false</default>
+                <label>IUI Cycle</label>
+            </value>
+            <value>
+                <fullName>Lab Only Cycle</fullName>
+                <default>false</default>
+                <label>Lab Only Cycle</label>
+            </value>
+            <value>
+                <fullName>OI Cycle</fullName>
+                <default>false</default>
+                <label>OI Cycle</label>
+            </value>
+            <value>
+                <fullName>VOT Cycle</fullName>
+                <default>false</default>
+                <label>VOT Cycle</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

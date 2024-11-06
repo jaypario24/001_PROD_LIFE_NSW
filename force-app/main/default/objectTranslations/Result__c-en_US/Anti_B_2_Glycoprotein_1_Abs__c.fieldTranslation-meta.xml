@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Anti B-2 Glycoprotein 1 Abs --></label>
+    <name>Anti_B_2_Glycoprotein_1_Abs__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Treatment Add Ons --></label>
+    <name>Treatment_Add_Ons__c</name>
+    <picklistValues>
+        <masterLabel>Ca2+</masterLabel>
+        <translation><!-- Ca2+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IMSI</masterLabel>
+        <translation><!-- IMSI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oosight</masterLabel>
+        <translation><!-- Oosight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zymot</masterLabel>
+        <translation><!-- Zymot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>½ egg fz split</masterLabel>
+        <translation><!-- ½ egg fz split --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

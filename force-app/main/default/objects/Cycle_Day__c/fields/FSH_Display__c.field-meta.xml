@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSH_Display__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    AND(
+        ISBLANK(Booked_FSH__c),
+        ISBLANK(FSH__c)
+    ),
+    &apos;&apos;,
+    IF(
+        NOT(ISBLANK(FSH__c)),
+        IF(FSH__c = 0, Booked_FSH__c, TEXT(FSH__c)),
+        Booked_FSH__c
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>FSH</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

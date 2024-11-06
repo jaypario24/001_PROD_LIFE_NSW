@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IframeWhiteListUrlSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <iframeWhiteListUrls>
+        <context>LightningOut</context>
+        <url>https://stg-api-au.medipass.io</url>
+    </iframeWhiteListUrls>
+    <iframeWhiteListUrls>
+        <context>VisualforcePages</context>
+        <url>stg-tyrohealth.medipass.io</url>
+    </iframeWhiteListUrls>
+    <iframeWhiteListUrls>
+        <context>LightningOut</context>
+        <url>https://tyrohealth.medipass.io</url>
+    </iframeWhiteListUrls>
+    <iframeWhiteListUrls>
+        <context>VisualforcePages</context>
+        <url>https://tyrohealth.medipass.io</url>
+    </iframeWhiteListUrls>
+</IframeWhiteListUrlSettings>

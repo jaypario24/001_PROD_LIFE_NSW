@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interview_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Interview Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General Fertility Consult</fullName>
+                <default>false</default>
+                <label>General Fertility Consult</label>
+            </value>
+            <value>
+                <fullName>FET Interview</fullName>
+                <default>false</default>
+                <label>FET Overview</label>
+            </value>
+            <value>
+                <fullName>IVF Overview</fullName>
+                <default>false</default>
+                <label>IVF Overview</label>
+            </value>
+            <value>
+                <fullName>OI Overview</fullName>
+                <default>false</default>
+                <label>OI Overview</label>
+            </value>
+            <value>
+                <fullName>IUI/DI Overview</fullName>
+                <default>false</default>
+                <label>IUI/DI Overview</label>
+            </value>
+            <value>
+                <fullName>Egg Donor Overview</fullName>
+                <default>false</default>
+                <label>Egg Donor Overview</label>
+            </value>
+            <value>
+                <fullName>Sperm Donor Overview</fullName>
+                <default>false</default>
+                <label>Sperm Donor Overview</label>
+            </value>
+            <value>
+                <fullName>Recipient Overview</fullName>
+                <default>false</default>
+                <label>Recipient Overview</label>
+            </value>
+            <value>
+                <fullName>Fertility Preservation Overview</fullName>
+                <default>false</default>
+                <label>Fertility Preservation Overview</label>
+            </value>
+            <value>
+                <fullName>Account Overview</fullName>
+                <default>false</default>
+                <label>Account Overview</label>
+            </value>
+            <value>
+                <fullName>Collection of Medications</fullName>
+                <default>false</default>
+                <label>Collection of Medications</label>
+            </value>
+            <value>
+                <fullName>EPU</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>EPU</label>
+            </value>
+            <value>
+                <fullName>Embryo Transfer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Embryo Transfer</label>
+            </value>
+            <value>
+                <fullName>FET Scan</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FET Scan</label>
+            </value>
+            <value>
+                <fullName>Filgrastim</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Filgrastim</label>
+            </value>
+            <value>
+                <fullName>IUI / DI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IUI / DI</label>
+            </value>
+            <value>
+                <fullName>IUI Collection</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IUI Collection</label>
+            </value>
+            <value>
+                <fullName>IUI/DI Scan</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IUI/DI Scan</label>
+            </value>
+            <value>
+                <fullName>OI Scan</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OI Scan</label>
+            </value>
+            <value>
+                <fullName>PRP Insemination</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PRP Insemination</label>
+            </value>
+            <value>
+                <fullName>PRP Preparations</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PRP Preparations</label>
+            </value>
+            <value>
+                <fullName>Semen Analysis</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Semen Analysis</label>
+            </value>
+            <value>
+                <fullName>Stim Scan</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stim Scan</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

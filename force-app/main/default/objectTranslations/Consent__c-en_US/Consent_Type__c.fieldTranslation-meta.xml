@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Consent Type --></label>
+    <name>Consent_Type__c</name>
+    <picklistValues>
+        <masterLabel>Counsellor&apos;s Report (Manual Upload)</masterLabel>
+        <translation><!-- Counsellor&apos;s Report (Manual Upload) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cycle/Operative Consent</masterLabel>
+        <translation><!-- Cycle/Operative Consent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financial Consent</masterLabel>
+        <translation><!-- Financial Consent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc1 - Patient Acknowledgement of Receipt of Information Pertaining to Fertilisation In Vitro and Embryo Transfer - (annually)</masterLabel>
+        <translation><!-- GENdoc1 - Patient Acknowledgement of Receipt of Information Pertaining to Fertilisation In Vitro and Embryo Transfer - (annually) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc1 Informed consent process</masterLabel>
+        <translation><!-- GENdoc1 Informed consent process --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc16 - Consent for Superovulation Therapy - (Annually)</masterLabel>
+        <translation><!-- GENdoc16 - Consent for Superovulation Therapy - (Annually) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc17 - Consent for IUI - (120 days)</masterLabel>
+        <translation><!-- GENdoc17 - Consent for IUI - (120 days) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc18 - Witnessing Consent to Semen Preparation for IUI Procedure - (Once)</masterLabel>
+        <translation><!-- GENdoc18 - Witnessing Consent to Semen Preparation for IUI Procedure - (Once) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc19 - Lifestyle Declaration for Egg Sperm and Embryo Donors - (Annually - unless they’re donating to a new recipient)</masterLabel>
+        <translation><!-- GENdoc19 - Lifestyle Declaration for Egg Sperm and Embryo Donors - (Annually - unless they’re donating to a new recipient) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc2 -ART Assisted Reproductive Technology Procedures - (120 days)</masterLabel>
+        <translation><!-- GENdoc2 -ART Assisted Reproductive Technology Procedures - (120 days) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc20 - Consent to Donated Eggs - (120 days)</masterLabel>
+        <translation><!-- GENdoc20 - Consent to Donated Eggs - (120 days) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc21 - Consent to Donate Sperm - (Once - unless they’re donating to a new recipient)</masterLabel>
+        <translation><!-- GENdoc21 - Consent to Donate Sperm - (Once - unless they’re donating to a new recipient) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc22 - Consent to Donate Embryos - (Once - unless they’re donating to a new recipient)</masterLabel>
+        <translation><!-- GENdoc22 - Consent to Donate Embryos - (Once - unless they’re donating to a new recipient) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc23 - Consent to Receive Donor Eggs - (120 days)</masterLabel>
+        <translation><!-- GENdoc23 - Consent to Receive Donor Eggs - (120 days) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc24 - Consent to Receive Donor Sperm - (Annually if anonymous donor/once if known)</masterLabel>
+        <translation><!-- GENdoc24 - Consent to Receive Donor Sperm - (Annually if anonymous donor/once if known) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc26 - Consent to Receive Donor Embryos - (Once – unless donor changes)</masterLabel>
+        <translation><!-- GENdoc26 - Consent to Receive Donor Embryos - (Once – unless donor changes) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc27 - Donor Medical Condition Declaration - (Once, only if there is a risk declared)</masterLabel>
+        <translation><!-- GENdoc27 - Donor Medical Condition Declaration - (Once, only if there is a risk declared) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc3 - Consent to Freeze and Store Embryos - (Annually)</masterLabel>
+        <translation><!-- GENdoc3 - Consent to Freeze and Store Embryos - (Annually) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc4 - Consent to Thaw and Transfer Frozen Embryos - (120 days)</masterLabel>
+        <translation><!-- GENdoc4 - Consent to Thaw and Transfer Frozen Embryos - (120 days) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc40 - TESA/PESA Consent - (120 days)</masterLabel>
+        <translation><!-- GENdoc40 - TESA/PESA Consent - (120 days) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc5 - Consent to Freeze and Store Sperm/Testicular Tissue - (Annually)</masterLabel>
+        <translation><!-- GENdoc5 - Consent to Freeze and Store Sperm/Testicular Tissue - (Annually) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc57b - Consent to Embryo Biopsy &amp; PGT-A for Aneuploidy - (120 days)</masterLabel>
+        <translation><!-- GENdoc57b - Consent to Embryo Biopsy &amp; PGT-A for Aneuploidy - (120 days) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc58b - Consent to Embryo Biopsey &amp;PGT for Chromosome Rearrangements &amp; Aneuploidy – (120 days)</masterLabel>
+        <translation><!-- GENdoc58b - Consent to Embryo Biopsey &amp;PGT for Chromosome Rearrangements &amp; Aneuploidy – (120 days) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc5B - Consent to Freeze Sperm for Donation - (Once - unless they’re donating to a new recipient)</masterLabel>
+        <translation><!-- GENdoc5B - Consent to Freeze Sperm for Donation - (Once - unless they’re donating to a new recipient) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc5c - Consent to Ongoing Storage of Known Donated Sperm - (Once)</masterLabel>
+        <translation><!-- GENdoc5c - Consent to Ongoing Storage of Known Donated Sperm - (Once) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc6 - Consent to Freeze and Store Oocytes / Ovarian Tissue - (Annually)</masterLabel>
+        <translation><!-- GENdoc6 - Consent to Freeze and Store Oocytes / Ovarian Tissue - (Annually) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc63B - Consent to Embryo Biopsey &amp;PGT A for Aneuploidy &amp; Sex Selection – (120 days)</masterLabel>
+        <translation><!-- GENdoc63B - Consent to Embryo Biopsey &amp;PGT A for Aneuploidy &amp; Sex Selection – (120 days) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc66b - Consent to Embryo Biopsey &amp;PGT for single Gene Disorders &amp; Aneuploidy - (120 days)</masterLabel>
+        <translation><!-- GENdoc66b - Consent to Embryo Biopsey &amp;PGT for single Gene Disorders &amp; Aneuploidy - (120 days) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc71 - Consent to Feasibility Testing for PGD for Single Gene Disorders – GENdoc71 (120 days)</masterLabel>
+        <translation><!-- GENdoc71 - Consent to Feasibility Testing for PGD for Single Gene Disorders – GENdoc71 (120 days) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc72 - Confirmation of Personal Details and Fertility History - (Annually)</masterLabel>
+        <translation><!-- GENdoc72 - Confirmation of Personal Details and Fertility History - (Annually) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GENdoc84 - Sperm Donor Genetic Test Report Acknowledgement - (once)</masterLabel>
+        <translation><!-- GENdoc84 - Sperm Donor Genetic Test Report Acknowledgement - (once) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Principal Consent</masterLabel>
+        <translation><!-- Principal Consent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Registration Form</masterLabel>
+        <translation><!-- Registration Form --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

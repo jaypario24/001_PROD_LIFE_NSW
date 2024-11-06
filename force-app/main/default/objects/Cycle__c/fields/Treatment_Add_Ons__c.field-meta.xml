@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Treatment_Add_Ons__c</fullName>
+    <externalId>false</externalId>
+    <label>Treatment Add Ons</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>½ egg fz split</fullName>
+                <default>false</default>
+                <label>½ egg fz split</label>
+            </value>
+            <value>
+                <fullName>Ca2+</fullName>
+                <default>false</default>
+                <label>Ca2+</label>
+            </value>
+            <value>
+                <fullName>IMSI</fullName>
+                <default>false</default>
+                <label>IMSI</label>
+            </value>
+            <value>
+                <fullName>Oosight</fullName>
+                <default>false</default>
+                <label>Oosight</label>
+            </value>
+            <value>
+                <fullName>Zymot</fullName>
+                <default>false</default>
+                <label>Zymot</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Material_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Semen_Sample__r.Id   &lt;&gt;  &quot;&quot;, &quot;Semen Sample&quot;, 
+IF( Embryo_Batch__c  &lt;&gt; &quot;&quot;, &quot;Embryo Batch&quot;,
+IF( Egg_Cohort__c &lt;&gt;&quot;&quot;,&quot;Egg Cohort&quot;,&quot;Invalid Sample&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Material Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

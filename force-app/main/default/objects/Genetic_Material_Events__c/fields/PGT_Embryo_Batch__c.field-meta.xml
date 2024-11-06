@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PGT_Embryo_Batch__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>PGT Embryo Batch</label>
+    <referenceTo>Embryo_Batch__c</referenceTo>
+    <relationshipLabel>Genetic Material Events (PGT Embryo Batch)</relationshipLabel>
+    <relationshipName>Genetic_Material_Events2</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

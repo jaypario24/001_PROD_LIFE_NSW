@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Batch_Freeze_Date__c</fullName>
+    <externalId>false</externalId>
+    <label>Batch Freeze Date</label>
+    <summarizedField>Egg__c.Freeze_Date__c</summarizedField>
+    <summaryForeignKey>Egg__c.Egg_Cohort__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

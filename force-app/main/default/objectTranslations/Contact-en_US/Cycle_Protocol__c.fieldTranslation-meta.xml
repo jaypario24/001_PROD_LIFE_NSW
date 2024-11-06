@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cycle Protocol --></label>
+    <name>Cycle_Protocol__c</name>
+    <picklistValues>
+        <masterLabel>-- None --</masterLabel>
+        <translation><!-- - -  None - -  --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Antagonist</masterLabel>
+        <translation><!-- Antagonist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boost</masterLabel>
+        <translation><!-- Boost --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Down Reg</masterLabel>
+        <translation><!-- Down Reg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FSH</masterLabel>
+        <translation><!-- FSH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HRT</masterLabel>
+        <translation><!-- HRT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural</masterLabel>
+        <translation><!-- Natural --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

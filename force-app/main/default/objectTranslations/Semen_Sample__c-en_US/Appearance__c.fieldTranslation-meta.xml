@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Appearance --></label>
+    <name>Appearance__c</name>
+    <picklistValues>
+        <masterLabel>Clear</masterLabel>
+        <translation><!-- Clear --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cloudy</masterLabel>
+        <translation><!-- Cloudy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gel Bodies</masterLabel>
+        <translation><!-- Gel Bodies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normal</masterLabel>
+        <translation><!-- Normal --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

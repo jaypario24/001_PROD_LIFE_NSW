@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tomorrow_s_Agenda_Lab</fullName>
+    <columns>START_DATE_TIME</columns>
+    <columns>WHO_NAME</columns>
+    <columns>SUBJECT</columns>
+    <columns>Insemination_Method__c</columns>
+    <columns>Procedure_Type__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Doctor_Undertaking_Procedure__c</columns>
+    <columns>Task_Doctor__c</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>Patient_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>DUE_DATE</field>
+        <operation>equals</operation>
+        <value>TOMORROW</value>
+    </filters>
+    <filters>
+        <field>Procedure_Type__c</field>
+        <operation>equals</operation>
+        <value>OPU,Transfer,IUI,PRP,Filgrastim,Egg Thaw - VOT,PESA,TESA</value>
+    </filters>
+    <label>Tomorrow&apos;s Agenda Lab</label>
+    <sharedTo>
+        <group>Life_Fertility_Lab</group>
+    </sharedTo>
+</ListView>

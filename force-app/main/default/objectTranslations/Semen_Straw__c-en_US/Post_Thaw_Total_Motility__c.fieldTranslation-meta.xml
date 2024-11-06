@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Post Thaw Total Motility --></label>
+    <name>Post_Thaw_Total_Motility__c</name>
+</CustomFieldTranslation>

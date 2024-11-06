@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_was_the_outcome_for_this_baby__c</fullName>
+    <externalId>false</externalId>
+    <label>What was the outcome for this baby?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Baby_Outcome</valueSetName>
+    </valueSet>
+</CustomField>

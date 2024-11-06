@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Semen Collection</fullName>
+        <default>false</default>
+        <label>Semen Collection</label>
+    </customValue>
+    <customValue>
+        <fullName>Semen Analysis</fullName>
+        <default>false</default>
+        <label>Semen Analysis</label>
+    </customValue>
+    <masterLabel>Andrology Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

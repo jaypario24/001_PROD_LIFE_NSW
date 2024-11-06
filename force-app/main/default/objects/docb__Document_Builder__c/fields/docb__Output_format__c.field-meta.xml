@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>docb__Output_format__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Format of the attached or downloaded document.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Format of the attached or downloaded document.</inlineHelpText>
+    <label>Output format</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>docx</fullName>
+                <default>false</default>
+                <label>docx</label>
+            </value>
+            <value>
+                <fullName>html</fullName>
+                <default>false</default>
+                <label>html</label>
+            </value>
+            <value>
+                <fullName>odt</fullName>
+                <default>false</default>
+                <label>odt</label>
+            </value>
+            <value>
+                <fullName>pdf</fullName>
+                <default>true</default>
+                <label>pdf</label>
+            </value>
+            <value>
+                <fullName>rtf</fullName>
+                <default>false</default>
+                <label>rtf</label>
+            </value>
+            <value>
+                <fullName>txt</fullName>
+                <default>false</default>
+                <label>txt</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

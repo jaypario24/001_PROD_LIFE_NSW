@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Staff Member who Performed Check --></label>
+    <name>Staff_Member_who_Performed_Check__c</name>
+</CustomFieldTranslation>

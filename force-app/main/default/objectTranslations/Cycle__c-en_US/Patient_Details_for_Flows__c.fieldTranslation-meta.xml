@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Patient Details for Flows --></label>
+    <name>Patient_Details_for_Flows__c</name>
+</CustomFieldTranslation>

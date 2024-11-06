@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Number of Day 7 Embryos Frozen --></label>
+    <name>Number_of_Day_7_Embryos_Frozen__c</name>
+</CustomFieldTranslation>

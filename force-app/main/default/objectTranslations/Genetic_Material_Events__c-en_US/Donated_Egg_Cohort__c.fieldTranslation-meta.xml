@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Donated Egg Cohort --></label>
+    <name>Donated_Egg_Cohort__c</name>
+    <relationshipLabel><!-- Genetic Material Events (Donated Egg Cohort) --></relationshipLabel>
+</CustomFieldTranslation>

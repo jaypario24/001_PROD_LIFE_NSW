@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Linked_Patient_Donor__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>For Dev use and formulas only, Should never be shown on page layout.</description>
+    <externalId>false</externalId>
+    <label>Linked Patient &amp; Donor</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Activities</relationshipLabel>
+    <relationshipName>Activities</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

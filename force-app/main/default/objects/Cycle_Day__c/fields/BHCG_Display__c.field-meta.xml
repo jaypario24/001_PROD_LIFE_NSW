@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BHCG_Display__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    AND(
+        ISBLANK(Book_BHCG__c),
+        ISBLANK(BHCG__c)
+    ),
+    &apos;&apos;,
+    IF(
+        NOT(ISBLANK(LH__c)),
+        IF(BHCG__c = 0, Book_BHCG__c, TEXT(BHCG__c)),
+        Book_BHCG__c
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>BHCG</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

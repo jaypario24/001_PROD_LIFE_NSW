@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Life Fertility Admin Queue</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Life_Fertility_Admin</publicGroup>
+        </publicGroups>
+        <users>
+            <user>aaron.harford@lifefertility.com.au</user>
+            <user>grace.lanspeary@pariosolutionsgroup.com.au</user>
+            <user>sydney.accountscoordinator@lifefertility.com.au</user>
+            <user>vivian.cheng@lifefertility.com.au</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

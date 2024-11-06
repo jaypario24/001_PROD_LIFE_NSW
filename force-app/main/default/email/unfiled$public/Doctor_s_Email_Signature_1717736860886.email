@@ -1,0 +1,41 @@
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body style="height: auto; min-height: auto;">
+  <p><br /> <br /> <span style="color:#0a5042;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Kind regards,</b></span></span></span></p>
+  <p><span style="font-size:16px;"><span style="color:#0a5042;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>{{{Sender.Title}}}&nbsp;{{{Sender.Name}}}&nbsp;{{{Sender.Order__c}}}</b></span></span></span><br /> <span style="font-size:12px;"><span style="color:#34afa2;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Sender.Post_Nominals__c}}}</span></span></span></p>
+  <table class="MsoTableGrid" style="border-collapse:collapse; border:none" width="378">
+   <tbody>
+    <tr>
+     <td colspan="2" style="border-bottom:none; width:180px; padding:0cm 7px 0cm 7px; height:28px; border-top:none; border-right:1px solid #0a5042; border-left:none" valign="top">&nbsp; 
+      <table class="MsoTableGrid" style="border-collapse:collapse; border:none" width="378">
+       <tbody>
+        <tr>
+         <td colspan="2" style="border-bottom:none; width:180px; padding:0cm 7px 0cm 7px; height:28px; border-top:none; border-right:1px solid #0a5042; border-left:none" valign="top"><br /> <span style="font-size:14px;"><span style="font-family:Calibri,sans-serif"><b><span lang="EN-US"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#0a5042">Kogarah</span></span></span></b></span><br /> <span style="font-family:Calibri,sans-serif"><span lang="EN-US"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#0a5042">Shop 2, 53-57 Montgomery Street</span></span></span></span></span><br /> &nbsp;</td>
+         <td style="border-bottom:none; width:198px; padding:0cm 7px 0cm 7px; height:28px; border-top:none; border-right:none; border-left:none" valign="top"><br /> <span style="font-size:14px;"><span style="font-family:Calibri,sans-serif"><b><span lang="EN-US"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#0a5042">Hemsley House </span></span></span></b></span><br /> <span style="font-family:Calibri,sans-serif"><span lang="EN-US"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#0a5042">20 Roslyn St, Potts Point NSW 2011</span></span></span></span></span><br /> &nbsp;</td>
+        </tr>
+        <tr>
+         <td style="width:37px; padding:0cm 7px 0cm 7px; height:31px" valign="top"><span style="font-size:14px;"><span style="font-family:Calibri,sans-serif"><span lang="EN-US"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#34afa2">Ph:</span></span></span></span><br /> <span style="font-family:Calibri,sans-serif"><span lang="EN-US"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#34afa2">Fax:</span></span></span></span></span></td>
+         <td style="width:142px; padding:0cm 7px 0cm 7px; height:31px" valign="top"><span style="font-size:14px;"><span style="font-family:Calibri,sans-serif"><span lang="EN-US"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#0a5042">(02) 9138 4222</span></span></span></span><br /> <span style="font-family:Calibri,sans-serif"><span lang="EN-US"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#0a5042">(02) 9138 4233</span></span></span></span></span></td>
+         <td style="width:199px; padding:0cm 7px 0cm 7px; height:31px" valign="top"><span style="font-size:14px;"><span style="font-family:Calibri,sans-serif"><span lang="EN-US"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#0a5042">(02) 90579888</span></span></span></span><br /> <span style="font-family:Calibri,sans-serif"><span lang="EN-US"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#0a5042">(02) 90579889</span></span></span></span></span></td>
+        </tr>
+        <tr>
+         <td style="width:37px; padding:0cm 7px 0cm 7px; height:25px" valign="top"><span style="font-size:14px;"><span style="font-family:Calibri,sans-serif"><span lang="EN-US"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#34afa2">E:</span></span></span></span></span></td>
+         <td colspan="2" style="width:341px; padding:0cm 7px 0cm 7px; height:25px" valign="top"><span style="font-size:14px;"><font color="#0a5042" face="Arial, sans-serif">{{{Sender.Email}}}</font></span></td>
+        </tr>
+       </tbody>
+      </table></td>
+    </tr>
+   </tbody>
+  </table>
+  <p><img alt="Life Dr Sig" src="{[devName:Life_Dr_Sig]}" style="max-width: 1298.93px; width: 611px; height: 99px;" title="Life Dr Sig" /></p>
+  <p><span lang="EN-US" style="border:none windowtext 1.0pt; font-size:6.5pt; padding:0cm"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#aca39a">This message, including any attachments is intended only for the use of the addressee(s) and may contain information that is privileged, confidential and/or subject to copyright. Any other use, distribution, copying, or disclosure is strictly prohibited. If you are not the intended recipient or have received this email in error, please notify us immediately by reply email and permanently delete this message, including any attachments, without reading, or distributing it or making a copy.</span></span></span></p> <br /> <br /> &nbsp; 
+  <div id="" style="left: 8px; top: 204px;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 8px; top: 204px;">
+   &nbsp;
+  </div>
+ </body>
+</html>

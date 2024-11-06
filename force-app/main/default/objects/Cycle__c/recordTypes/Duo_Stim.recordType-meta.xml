@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duo_Stim</fullName>
+    <active>true</active>
+    <description>This cycle type is for patients undergoing two stimulation protocols within a single menstrual cycle, aimed at increasing the number of eggs retrieved for fertilization.</description>
+    <label>Duo Stim</label>
+    <picklistValues>
+        <picklist>Additional_Semen_Collection_Method__c</picklist>
+        <values>
+            <fullName>Aspirate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ejaculate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frozen Sperm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MicroTESE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open Biopsy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PESA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retrograde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TESE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknow</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Anaesthetic_Type__c</picklist>
+        <values>
+            <fullName>General Anesthesia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inhaled Analgesia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monitored Anesthesia Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sedation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Claim_Status__c</picklist>
+        <values>
+            <fullName>Claim Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Exempt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim not yet finalised</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cycle_Cancelled_Reason__c</picklist>
+        <values>
+            <fullName>Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Medical</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cycle_Failed_Reason__c</picklist>
+        <values>
+            <fullName>Failed Fert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Failed OPU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Mature Eggs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Utilisation of Embryos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cycle_Outcome__c</picklist>
+        <values>
+            <fullName>Awaiting Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clinical Pregnancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cycle Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freeze All</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Live Birth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Eggs Retrieved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Pregnant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Positive BHCG</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cycle_Timing__c</picklist>
+        <values>
+            <fullName>Duostim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cycle_Type_ANZARD__c</picklist>
+        <values>
+            <fullName>1 %3D Autologous%3A Female-male couple%2C single female%2C female-female couple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 %3D Non-autologous%3A Female-female couple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 %3D Non-autologous%3A Oocyte%2Fembryo donation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 %3D Non-autologous%3A Oocyte recipient</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 %3D Non-autologous%3A Embryo recipient</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 %3D Surrogacy %E2%80%93 intending parent%28s%29%3A Oocyte%2Fembryo provision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 %3D Surrogacy %E2%80%93 gestational carrier%3A Transfer %28or thawing with the intention of transfer%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 %3D Laboratory-only cycle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cycle_not_proceeding_reason__c</picklist>
+        <values>
+            <fullName>Conceived naturally</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Going elsewhere</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not ready</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationship broken down</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Embryo_Glue__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Expected_Sperm_Source__c</picklist>
+        <values>
+            <fullName>Clinic Donor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Known Donor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fertility_Preservation_Typpe__c</picklist>
+        <values>
+            <fullName>1 %3D Medical reason %E2%80%93 Cancer diagnosis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 %3D Medical reason %E2%80%93 other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 %3D Non-medical reason</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>First_FSH_Cycle__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Freeze_All_Options__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undecided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Freeze_All_Reason__c</picklist>
+        <values>
+            <fullName>Non-PGT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PGT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>How_Will_Semen_be_Collected__c</picklist>
+        <values>
+            <fullName>Aspirate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ejaculate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frozen Sperm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MicroTESE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open Biopsy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PESA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retrograde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TESE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknow</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Insemination_Method__c</picklist>
+        <values>
+            <fullName>1%2F2 ICSI 1%2F2 IVF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IVF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard ICSI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_Cycle_for_Fertility_Preservation__c</picklist>
+        <values>
+            <fullName>1 %3D No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 %3D Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Medicare_Claimable__c</picklist>
+        <values>
+            <fullName>Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicare Exempt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OI_Type__c</picklist>
+        <values>
+            <fullName>FSH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracking</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Outcome_of_First_Born_Baby__c</picklist>
+        <values>
+            <fullName>Livebirth%2FSurvived</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neonatal Death %28Livebirth%2FDied %3C 28 Days%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stillbirth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown Outcome %28Baby Born%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Outcome_of_Fourth_Born_Baby__c</picklist>
+        <values>
+            <fullName>Livebirth%2FSurvived</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neonatal Death %28Livebirth%2FDied %3C 28 Days%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stillbirth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown Outcome %28Baby Born%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Outcome_of_Second_Born_Baby__c</picklist>
+        <values>
+            <fullName>Livebirth%2FSurvived</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neonatal Death %28Livebirth%2FDied %3C 28 Days%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stillbirth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown Outcome %28Baby Born%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Outcome_of_Third_Born_Baby__c</picklist>
+        <values>
+            <fullName>Livebirth%2FSurvived</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neonatal Death %28Livebirth%2FDied %3C 28 Days%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stillbirth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown Outcome %28Baby Born%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ov_Stim_Via_FSH__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PGT_A_Reason__c</picklist>
+        <values>
+            <fullName>Age</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patient Choice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Previous Abnormal Pregnancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recurrent Implantation Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recurrent Miscarriage</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PGT_Type__c</picklist>
+        <values>
+            <fullName>PGT A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PGT M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PGT SR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pregnancy_Outcome__c</picklist>
+        <values>
+            <fullName>Biochem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clinical Pregnancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ectopic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heterotopic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Live Birth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missed Miscarriage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Pregnant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Over 20 Week Miscarriage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Positive BHCG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pregnancy Terminated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Still Birth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under 20 Week Miscarriage</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pricing_Type__c</picklist>
+        <values>
+            <fullName>BulkBill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Price</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Protocol__c</picklist>
+        <values>
+            <fullName>Custom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duostim %231 Antagonist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duostim %231 Down Regulation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duostim %231 Flare%2FBoost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duostim %232  Antagoinist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luteal Phase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pill Antagonist</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Recommended_OPU_Type__c</picklist>
+        <values>
+            <fullName>Main Theatres with anaesthetic Dr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procedure Room with anaesthetic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procedure room with Nitrous</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sex_of_First_Born_Baby__c</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sex_of_Fourth_Born_Baby__c</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sex_of_Intending_Parents_ANZARD__c</picklist>
+        <values>
+            <fullName>1 %3D A female-male couple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 %3D A single female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 %3D A female-female couple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 %3D A single male</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 %3D A male-male couple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 %3D Unknown %E2%80%93 only for use in oocyte donation cycles to unknown intending</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sex_of_Second_Born_Baby__c</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sex_of_Third_Baby__c</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Social_Egg_Freeze_Discount_Type__c</picklist>
+        <values>
+            <fullName>Discount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sperm_Collection_Method__c</picklist>
+        <values>
+            <fullName>Semen Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semen Collection</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sperm_Source__c</picklist>
+        <values>
+            <fullName>1 %3D A male intending parent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 %3D A sperm donor outside of the intending parents</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Awaiting Clinical Pregnancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Live Birth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting PGT Results</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finalising Admission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WFPT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Treatment_Add_Ons__c</picklist>
+        <values>
+            <fullName>%C2%BD egg fz split</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ca2%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMSI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oosight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zymot</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

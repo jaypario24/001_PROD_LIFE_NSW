@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FDOB_NON_PAT__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(CYCLE_TYPE__c =&quot;7&quot;, CYCLE_ID__r.Surrogacy_Female_Intending_Parent__r.Birthdate ,IF( PARENT_SEX__c = &quot;3&quot;, CYCLE_ID__r.Patient__r.Partner__r.Birthdate ,NULL) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>FDOB_NON_PAT</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

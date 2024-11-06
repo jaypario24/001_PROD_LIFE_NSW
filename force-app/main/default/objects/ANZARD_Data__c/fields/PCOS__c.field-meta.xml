@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PCOS__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (PARENT_SEX__c &lt;&gt; &quot;1&quot;|| CYCLE_TYPE__c =&quot;8&quot;, NULL, 
+IF ( TEXT(CYCLE_ID__r.Patient__r.Is_PCOS_Present__c) = NULL, &quot;u&quot;, LEFT (TEXT( CYCLE_ID__r.Patient__r.Is_Infertility_due_to_Tubal_Disease__c ), 1)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>PCOS</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>IVF Cycle</fullName>
+        <default>false</default>
+        <label>IVF Cycle</label>
+    </customValue>
+    <customValue>
+        <fullName>FET Cycle</fullName>
+        <default>false</default>
+        <label>FET Cycle</label>
+    </customValue>
+    <customValue>
+        <fullName>Fresh Egg Donor Cycle</fullName>
+        <default>false</default>
+        <label>Fresh Egg Donor Cycle</label>
+    </customValue>
+    <customValue>
+        <fullName>VOT Cycle</fullName>
+        <default>false</default>
+        <label>VOT Cycle</label>
+    </customValue>
+    <customValue>
+        <fullName>Lab Only Cycle</fullName>
+        <default>false</default>
+        <label>Lab Only Cycle</label>
+    </customValue>
+    <customValue>
+        <fullName>OI Cycle</fullName>
+        <default>false</default>
+        <label>OI Cycle</label>
+    </customValue>
+    <customValue>
+        <fullName>Egg Freeze Cycle</fullName>
+        <default>false</default>
+        <label>Egg Freeze Cycle</label>
+    </customValue>
+    <customValue>
+        <fullName>IUI Cycle</fullName>
+        <default>false</default>
+        <label>IUI Cycle</label>
+    </customValue>
+    <masterLabel>Cycle Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cycle Timing --></label>
+    <name>Cycle_Timing__c</name>
+    <picklistValues>
+        <masterLabel>Duostim</masterLabel>
+        <translation><!-- Duostim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural</masterLabel>
+        <translation><!-- Natural --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OCP</masterLabel>
+        <translation><!-- OCP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Post Zoladex</masterLabel>
+        <translation><!-- Post Zoladex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provera</masterLabel>
+        <translation><!-- Provera --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Random Start</masterLabel>
+        <translation><!-- Random Start --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

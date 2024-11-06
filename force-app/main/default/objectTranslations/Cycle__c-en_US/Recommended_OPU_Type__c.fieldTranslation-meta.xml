@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Recommended OPU Type --></label>
+    <name>Recommended_OPU_Type__c</name>
+    <picklistValues>
+        <masterLabel>Main Theatres with anaesthetic Dr</masterLabel>
+        <translation><!-- Main Theatres with anaesthetic Dr --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procedure Room with anaesthetic</masterLabel>
+        <translation><!-- Procedure Room with anaesthetic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procedure room with Nitrous</masterLabel>
+        <translation><!-- Procedure room with Nitrous --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

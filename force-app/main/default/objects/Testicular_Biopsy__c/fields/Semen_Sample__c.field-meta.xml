@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Semen_Sample__c</fullName>
+    <externalId>false</externalId>
+    <label>Semen Sample</label>
+    <referenceTo>Semen_Sample__c</referenceTo>
+    <relationshipLabel>Testicular Biopsy&apos;s</relationshipLabel>
+    <relationshipName>Testicular_Biopsys</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

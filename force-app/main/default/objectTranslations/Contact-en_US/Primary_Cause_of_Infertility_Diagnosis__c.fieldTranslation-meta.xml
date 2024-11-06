@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Primary Cause of Male Infertility --></label>
+    <name>Primary_Cause_of_Infertility_Diagnosis__c</name>
+    <picklistValues>
+        <masterLabel>1 = Idiopathic (unexplained)</masterLabel>
+        <translation><!-- 1 = Idiopathic (unexplained) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10 = Obstructive Disorder (Other)</masterLabel>
+        <translation><!-- 10 = Obstructive Disorder (Other) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>11 = Erectile Dysfunction incl. Psychosexual</masterLabel>
+        <translation><!-- 11 = Erectile Dysfunction incl. Psychosexual --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12 = Ejaculatory Disorders (incl. Spinal Injury, Retrograde and Anejaculation.)</masterLabel>
+        <translation><!-- 12 = Ejaculatory Disorders (incl. Spinal Injury, Retrograde and Anejaculation.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2 = Genetic - Klinefelter</masterLabel>
+        <translation><!-- 2 = Genetic - Klinefelter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3 = Genetic Y Deletion</masterLabel>
+        <translation><!-- 3 = Genetic Y Deletion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4 = Genetic - Other aneupoidies, single gene.</masterLabel>
+        <translation><!-- 4 = Genetic - Other aneupoidies, single gene. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5 = Testis Damage - Cancer Treatment</masterLabel>
+        <translation><!-- 5 = Testis Damage - Cancer Treatment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6 = Testis Damage - Other (incl.past/recent cryptorchidism, vascular, infective, trauma)</masterLabel>
+        <translation><!-- 6 = Testis Damage - Other (incl.past/recent cryptorchidism, vascular, infective, trauma) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7 = Gonadotrophin Deficiency</masterLabel>
+        <translation><!-- 7 = Gonadotrophin Deficiency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8 = Vasectomy</masterLabel>
+        <translation><!-- 8 = Vasectomy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>9 = Congenital absence of the Vas Deferens/Cystic Fibrosis</masterLabel>
+        <translation><!-- 9 = Congenital absence of the Vas Deferens/Cystic Fibrosis --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

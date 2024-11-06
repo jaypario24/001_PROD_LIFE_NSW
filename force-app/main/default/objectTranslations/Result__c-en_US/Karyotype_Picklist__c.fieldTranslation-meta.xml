@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Karyotype --></label>
+    <name>Karyotype_Picklist__c</name>
+    <picklistValues>
+        <masterLabel>46XX</masterLabel>
+        <translation><!-- 46XX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>46XY</masterLabel>
+        <translation><!-- 46XY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

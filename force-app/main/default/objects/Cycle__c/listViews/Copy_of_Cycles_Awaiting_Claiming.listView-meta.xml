@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_Cycles_Awaiting_Claiming</fullName>
+    <columns>NAME</columns>
+    <columns>Patient__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>Day_1__c</columns>
+    <columns>Cycle_Outcome__c</columns>
+    <columns>Status__c</columns>
+    <columns>Doctor_Initiating_Cycle__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Claim_Status__c</field>
+        <operation>equals</operation>
+        <value>Claim Completed</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>WFPT,Awaiting Clinical Pregnancy,Awaiting Live Birth,Closed</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Cycle__c.Duo_Stim,Cycle__c.FET_Cycle,Cycle__c.IUI_Cycle,Cycle__c.IVF_Cycle,Cycle__c.OI_Cycle,Cycle__c.VOT_Cycle</value>
+    </filters>
+    <filters>
+        <field>Cycle_Outcome__c</field>
+        <operation>notEqual</operation>
+        <value>Not Started</value>
+    </filters>
+    <label>Cycles concluded</label>
+    <sharedTo>
+        <group>Life_Fertility_Admin</group>
+    </sharedTo>
+</ListView>

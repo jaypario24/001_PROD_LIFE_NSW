@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PGT_Results__c</fullName>
+    <externalId>false</externalId>
+    <label>PGT Results</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Euploid</fullName>
+                <default>false</default>
+                <label>Euploid</label>
+            </value>
+            <value>
+                <fullName>Aneuploid</fullName>
+                <default>false</default>
+                <label>Aneuploid</label>
+            </value>
+            <value>
+                <fullName>Mosaic</fullName>
+                <default>false</default>
+                <label>Mosaic</label>
+            </value>
+            <value>
+                <fullName>No DNA</fullName>
+                <default>false</default>
+                <label>No DNA</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Normal</fullName>
+                <default>false</default>
+                <label>Normal</label>
+            </value>
+            <value>
+                <fullName>Abnormal</fullName>
+                <default>false</default>
+                <label>Abnormal</label>
+            </value>
+            <value>
+                <fullName>Monogenic</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Monogenic</label>
+            </value>
+            <value>
+                <fullName>New Result</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>New Result</label>
+            </value>
+            <value>
+                <fullName>Translocation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Translocation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

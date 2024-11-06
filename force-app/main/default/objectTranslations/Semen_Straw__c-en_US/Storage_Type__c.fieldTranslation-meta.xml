@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Storage Type --></label>
+    <name>Storage_Type__c</name>
+    <picklistValues>
+        <masterLabel>ART</masterLabel>
+        <translation><!-- ART --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Known Donor</masterLabel>
+        <translation><!-- Known Donor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Storage</masterLabel>
+        <translation><!-- Medical Storage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OS Donor</masterLabel>
+        <translation><!-- OS Donor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-Vasectomy</masterLabel>
+        <translation><!-- Pre-Vasectomy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Collection</masterLabel>
+        <translation><!-- Surgical Collection --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

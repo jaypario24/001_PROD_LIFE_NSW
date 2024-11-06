@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Counsellor Reports</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Counsellor Reports</value>
+    </caseValues>
+    <layouts>
+        <layout>Counsellor Reports Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Confidential Reports --></label>
+        <name>Confidential_Reports</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Public Reports --></label>
+        <name>Public_Reports</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

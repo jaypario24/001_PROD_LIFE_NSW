@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>https://ballarativf--c.vf.force.com/services/Soap/m/57.0</description>
+    <disableProtocolSecurity>true</disableProtocolSecurity>
+    <isActive>true</isActive>
+    <url>https://ballarativf--c.vf.force.com</url>
+</RemoteSiteSetting>

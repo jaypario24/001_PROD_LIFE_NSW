@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- PGT A Reason --></label>
+    <name>PGT_A_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Age</masterLabel>
+        <translation><!-- Age --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Choice</masterLabel>
+        <translation><!-- Patient Choice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Previous Abnormal Pregnancy</masterLabel>
+        <translation><!-- Previous Abnormal Pregnancy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recurrent Implantation Failure</masterLabel>
+        <translation><!-- Recurrent Implantation Failure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recurrent Miscarriage</masterLabel>
+        <translation><!-- Recurrent Miscarriage --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

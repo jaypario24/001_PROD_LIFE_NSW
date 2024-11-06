@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Claim Type --></label>
+    <name>Claim_Type__c</name>
+    <picklistValues>
+        <masterLabel>Bulkbill</masterLabel>
+        <translation><!-- Bulkbill --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DVA</masterLabel>
+        <translation><!-- DVA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eclipse</masterLabel>
+        <translation><!-- Eclipse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medicare Exempt</masterLabel>
+        <translation><!-- Medicare Exempt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patient Claim</masterLabel>
+        <translation><!-- Patient Claim --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

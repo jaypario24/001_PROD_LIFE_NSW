@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Urgent_as_Text__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    Bloods_in_Sydney__c = TRUE,
+    &quot;**URGENT** Specimens to be placed in red urgent specimen bags with request form. These are to be placed in urgent IVF purple courier satchel with IVF Courier Cover Sheet. Raise a Click-To-Collect Courier request stating: Contracted Urgent IVF sample.&quot;,
+    IF(
+        Urgent__c = TRUE,
+        &quot;URGENT&quot;,
+        &apos;&apos;
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Urgent as Text</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>docb__Base_object_API__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter the API name of the Base object (where the button or link will be used). Example: A document containing Opportunity fields, or a table of Opportunity Products associated with an Opportunity, would use the &quot;Opportunity&quot; as its base object.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the API name of the Base object (where the button or link will be used). Example: A document containing Opportunity fields, or a table of Opportunity Products associated with an Opportunity, would use the &quot;Opportunity&quot; as its base object.</inlineHelpText>
+    <label>Base object API</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

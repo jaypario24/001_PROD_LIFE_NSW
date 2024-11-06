@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MDOB_1__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( PARENT_SEX__c = &quot;1&quot;, CYCLE_ID__r.Patient__r.Partner__r.Birthdate,NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>MDOB_1</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requires_Embryo_Oocyte_Sperm_Vial_Count__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This boolean applies to FLAB 62, 17.</description>
+    <externalId>false</externalId>
+    <label>Requires Embryo/Oocyte/Sperm Vial Count</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

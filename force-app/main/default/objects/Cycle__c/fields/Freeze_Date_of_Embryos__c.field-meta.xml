@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Freeze_Date_of_Embryos__c</fullName>
+    <externalId>false</externalId>
+    <label>Freeze Date of Embryos</label>
+    <summarizedField>Cycle_Event__c.Event_Date_and_Time__c</summarizedField>
+    <summaryFilterItems>
+        <field>Cycle_Event__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Embryo Vitrification Event</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Cycle_Event__c.Cycle__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

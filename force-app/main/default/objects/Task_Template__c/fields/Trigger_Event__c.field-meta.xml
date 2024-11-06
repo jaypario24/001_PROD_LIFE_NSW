@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trigger_Event__c</fullName>
+    <externalId>false</externalId>
+    <label>Trigger Event</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Day 1</fullName>
+                <default>false</default>
+                <label>Day 1</label>
+            </value>
+            <value>
+                <fullName>Adverse Event</fullName>
+                <default>false</default>
+                <label>Adverse Event</label>
+            </value>
+            <value>
+                <fullName>Biopsy Event</fullName>
+                <default>false</default>
+                <label>Biopsy Event</label>
+            </value>
+            <value>
+                <fullName>Cell Wash Event</fullName>
+                <default>false</default>
+                <label>Cell Wash Event</label>
+            </value>
+            <value>
+                <fullName>Change Over</fullName>
+                <default>false</default>
+                <label>Change Over</label>
+            </value>
+            <value>
+                <fullName>Day 2 Embryo Assessment</fullName>
+                <default>false</default>
+                <label>Day 2 Embryo Assessment</label>
+            </value>
+            <value>
+                <fullName>Day 3 Embryo Assessment</fullName>
+                <default>false</default>
+                <label>Day 3 Embryo Assessment</label>
+            </value>
+            <value>
+                <fullName>Day 4 Embryo Assessment</fullName>
+                <default>false</default>
+                <label>Day 4 Embryo Assessment</label>
+            </value>
+            <value>
+                <fullName>Day 5 Embryo Assessment</fullName>
+                <default>false</default>
+                <label>Day 5 Embryo Assessment</label>
+            </value>
+            <value>
+                <fullName>Day 6 Embryo Assessment</fullName>
+                <default>false</default>
+                <label>Day 6 Embryo Assessment</label>
+            </value>
+            <value>
+                <fullName>Day 7 Embryo Assessment</fullName>
+                <default>false</default>
+                <label>Day 7 Embryo Assessment</label>
+            </value>
+            <value>
+                <fullName>Denuding/Coc Trimming</fullName>
+                <default>false</default>
+                <label>Denuding/Coc Trimming</label>
+            </value>
+            <value>
+                <fullName>Egg Donation Event</fullName>
+                <default>false</default>
+                <label>Egg Donation Event</label>
+            </value>
+            <value>
+                <fullName>Egg Insemination Event</fullName>
+                <default>false</default>
+                <label>Egg Insemination Event</label>
+            </value>
+            <value>
+                <fullName>Egg Thaw Event</fullName>
+                <default>false</default>
+                <label>Egg Thaw Event</label>
+            </value>
+            <value>
+                <fullName>Egg Vitrification Event</fullName>
+                <default>false</default>
+                <label>Egg Vitrification Event</label>
+            </value>
+            <value>
+                <fullName>Embryo Thaw Event</fullName>
+                <default>false</default>
+                <label>Embryo Thaw Event</label>
+            </value>
+            <value>
+                <fullName>Embryo Transfer Event</fullName>
+                <default>false</default>
+                <label>Embryo Transfer Event</label>
+            </value>
+            <value>
+                <fullName>Embryo Vitrification Event</fullName>
+                <default>false</default>
+                <label>Embryo Vitrification Event</label>
+            </value>
+            <value>
+                <fullName>Failed Embryo Transfer Event</fullName>
+                <default>false</default>
+                <label>Failed Embryo Transfer Event</label>
+            </value>
+            <value>
+                <fullName>Fert Check</fullName>
+                <default>false</default>
+                <label>Fert Check</label>
+            </value>
+            <value>
+                <fullName>Follicle Scan</fullName>
+                <default>false</default>
+                <label>Follicle Scan</label>
+            </value>
+            <value>
+                <fullName>Glue Move</fullName>
+                <default>false</default>
+                <label>Glue Move</label>
+            </value>
+            <value>
+                <fullName>IUI Event</fullName>
+                <default>false</default>
+                <label>IUI Event</label>
+            </value>
+            <value>
+                <fullName>LAH Event</fullName>
+                <default>false</default>
+                <label>LAH Event</label>
+            </value>
+            <value>
+                <fullName>Live Birth Event</fullName>
+                <default>false</default>
+                <label>Live Birth Event</label>
+            </value>
+            <value>
+                <fullName>OPU Event</fullName>
+                <default>false</default>
+                <label>OPU Event</label>
+            </value>
+            <value>
+                <fullName>OPU Prep Event</fullName>
+                <default>false</default>
+                <label>OPU Prep Event</label>
+            </value>
+            <value>
+                <fullName>Post Thaw Expansion Assessment</fullName>
+                <default>false</default>
+                <label>Post Thaw Expansion Assessment</label>
+            </value>
+            <value>
+                <fullName>Pregnancy Scan</fullName>
+                <default>false</default>
+                <label>Pregnancy Scan</label>
+            </value>
+            <value>
+                <fullName>Pregnancy Test</fullName>
+                <default>false</default>
+                <label>Pregnancy Test</label>
+            </value>
+            <value>
+                <fullName>Semen Freeze</fullName>
+                <default>false</default>
+                <label>Semen Freeze</label>
+            </value>
+            <value>
+                <fullName>Semen Prep</fullName>
+                <default>false</default>
+                <label>Semen Prep</label>
+            </value>
+            <value>
+                <fullName>Semen Thaw</fullName>
+                <default>false</default>
+                <label>Semen Thaw</label>
+            </value>
+            <value>
+                <fullName>Testicular Biopsy Event</fullName>
+                <default>false</default>
+                <label>Testicular Biopsy Event</label>
+            </value>
+            <value>
+                <fullName>Trigger</fullName>
+                <default>false</default>
+                <label>Trigger</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

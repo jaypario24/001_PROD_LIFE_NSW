@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Make_Public__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Specifically for task creation to assign to doctor queue from individual</description>
+    <externalId>false</externalId>
+    <label>Make Public</label>
+    <type>Checkbox</type>
+</CustomField>

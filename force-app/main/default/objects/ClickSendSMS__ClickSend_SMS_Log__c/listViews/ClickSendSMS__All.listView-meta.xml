@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ClickSendSMS__All</fullName>
+    <columns>NAME</columns>
+    <columns>ClickSendSMS__Campaign__c</columns>
+    <columns>ClickSendSMS__Contact__c</columns>
+    <columns>ClickSendSMS__Lead__c</columns>
+    <columns>ClickSendSMS__Message__c</columns>
+    <columns>ClickSendSMS__MessageType__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>ClickSendSMS__To_Number__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Referral Length --></label>
+    <name>Referral_Length__c</name>
+    <picklistValues>
+        <masterLabel>1 Month</masterLabel>
+        <translation><!-- 1 Month --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12 Months</masterLabel>
+        <translation><!-- 12 Months --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3 Months</masterLabel>
+        <translation><!-- 3 Months --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indefinite</masterLabel>
+        <translation><!-- Indefinite --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

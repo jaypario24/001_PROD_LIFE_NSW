@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Rapid-i</fullName>
+        <default>false</default>
+        <label>Rapid-i</label>
+    </customValue>
+    <customValue>
+        <fullName>Fibreplug</fullName>
+        <default>false</default>
+        <label>Fibreplug</label>
+    </customValue>
+    <customValue>
+        <fullName>Cryotop</fullName>
+        <default>false</default>
+        <label>Cryotop</label>
+    </customValue>
+    <customValue>
+        <fullName>Gavi Pod</fullName>
+        <default>false</default>
+        <label>Gavi Pod</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Device Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

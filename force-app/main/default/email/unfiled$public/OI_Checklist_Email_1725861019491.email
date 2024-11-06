@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-family:Arial,Helvetica,sans-serif;">Hello&nbsp;{{{Cycle__c.Patient_First_Name__c}}},<br />
+<br />
+You are receiving this email because your fertility specialist has decided an ovulation induction cycle is the best treatment option at this stage in your fertility journey. Please find attached important information for you to consider prior to beginning this treatment with life fertility.<br />
+<br />
+If you have any questions at all, please get in touch by emailing&nbsp;<a href="mailto:sydney.reception@lifefertility.com.au">sydney.reception@lifefertility.com.au</a>&nbsp;and a friendly team member will assist you as soon as possible.<br />
+<br />
+Kind Regards,<br />
+<br />
+The Life Fertility Team</span></body>
+</html>

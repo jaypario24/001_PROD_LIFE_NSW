@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Warming/Thaw Kit Used --></label>
+    <name>Warming_Thaw_Kit_Used__c</name>
+    <picklistValues>
+        <masterLabel>Rapid Warm Blast</masterLabel>
+        <translation><!-- Rapid Warm Blast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rapid Warm Cleave</masterLabel>
+        <translation><!-- Rapid Warm Cleave --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sage QA Thaw Kit</masterLabel>
+        <translation><!-- Sage QA Thaw Kit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sage Vit Warm Kit</masterLabel>
+        <translation><!-- Sage Vit Warm Kit --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Post Thaw Cell Number --></label>
+    <name>Post_Thaw_Day_5_Cell_Number__c</name>
+    <picklistValues>
+        <masterLabel>10c</masterLabel>
+        <translation><!-- 10c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>11c</masterLabel>
+        <translation><!-- 11c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12c</masterLabel>
+        <translation><!-- 12c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>13c</masterLabel>
+        <translation><!-- 13c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>14c</masterLabel>
+        <translation><!-- 14c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15c</masterLabel>
+        <translation><!-- 15c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>16+</masterLabel>
+        <translation><!-- 16+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>16c</masterLabel>
+        <translation><!-- 16c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1c</masterLabel>
+        <translation><!-- 1c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1eb</masterLabel>
+        <translation><!-- 1eb --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1ec</masterLabel>
+        <translation><!-- 1ec --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2c</masterLabel>
+        <translation><!-- 2c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3c</masterLabel>
+        <translation><!-- 3c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4c</masterLabel>
+        <translation><!-- 4c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5c</masterLabel>
+        <translation><!-- 5c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6c</masterLabel>
+        <translation><!-- 6c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7c</masterLabel>
+        <translation><!-- 7c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8c</masterLabel>
+        <translation><!-- 8c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>9c</masterLabel>
+        <translation><!-- 9c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compacting</masterLabel>
+        <translation><!-- Compacting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Morula</masterLabel>
+        <translation><!-- Morula --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Part Compacting</masterLabel>
+        <translation><!-- Part Compacting --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

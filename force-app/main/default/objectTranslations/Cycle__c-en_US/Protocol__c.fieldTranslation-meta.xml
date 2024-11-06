@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Protocol DEPRECIATED --></label>
+    <name>Protocol__c</name>
+    <picklistValues>
+        <masterLabel>Antagonist</masterLabel>
+        <translation><!-- Antagonist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom</masterLabel>
+        <translation><!-- Custom --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Down Reg</masterLabel>
+        <translation><!-- Down Reg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duostim #1 Antagonist</masterLabel>
+        <translation><!-- Duostim #1 Antagonist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duostim #1 Down Regulation</masterLabel>
+        <translation><!-- Duostim #1 Down Regulation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duostim #1 Flare/Boost</masterLabel>
+        <translation><!-- Duostim #1 Flare/Boost --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duostim #2  Antagoinist</masterLabel>
+        <translation><!-- Duostim #2  Antagoinist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FSH</masterLabel>
+        <translation><!-- FSH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flare/Boost</masterLabel>
+        <translation><!-- Flare/Boost --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HRT</masterLabel>
+        <translation><!-- HRT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Letrozole</masterLabel>
+        <translation><!-- Letrozole --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Luteal Phase</masterLabel>
+        <translation><!-- Luteal Phase --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ministim</masterLabel>
+        <translation><!-- Ministim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural</masterLabel>
+        <translation><!-- Natural --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pill Antagonist</masterLabel>
+        <translation><!-- Pill Antagonist --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

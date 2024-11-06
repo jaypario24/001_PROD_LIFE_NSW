@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>filesconnect__Template__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Template</label>
+    <referenceTo>filesconnect__Template__c</referenceTo>
+    <relationshipLabel>Template List Configs</relationshipLabel>
+    <relationshipName>TemplateListConfigs</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

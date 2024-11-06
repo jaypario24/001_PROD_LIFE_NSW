@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cycle Egg Collected In --></label>
+    <name>Cycle_Egg_Collected_In__c</name>
+    <relationshipLabel><!-- Eggs --></relationshipLabel>
+</CustomFieldTranslation>

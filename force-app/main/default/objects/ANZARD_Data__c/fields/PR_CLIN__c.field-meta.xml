@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PR_CLIN__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    OR(
+        NOT(ISBLANK(DATE_ET__c)),
+        NOT(ISBLANK(IUI_DATE__c))
+    ),
+    IF(
+        OR(
+            TEXT( CYCLE_ID__r.Pregnancy_Outcome__c ) = &quot;Clinical Pregnancy&quot;,
+            TEXT(CYCLE_ID__r.Pregnancy_Outcome__c ) = &quot;Missed Miscarriage&quot;,
+            TEXT(CYCLE_ID__r.Pregnancy_Outcome__c ) = &quot;Live Birth&quot;,
+            TEXT(CYCLE_ID__r.Pregnancy_Outcome__c ) = &quot;Under 20 Week Miscarriage&quot;,
+            TEXT(CYCLE_ID__r.Pregnancy_Outcome__c ) = &quot;Over 20 Week Miscarriage&quot;,
+            TEXT(CYCLE_ID__r.Pregnancy_Outcome__c ) = &quot;Still Birth&quot;,
+            TEXT(CYCLE_ID__r.Pregnancy_Outcome__c ) = &quot;Pregnancy Terminated&quot;
+        ),
+        &quot;y&quot;,
+        &quot;n&quot;
+    ),
+    IF(
+        AND(
+            OR(
+                NOT(ISBLANK(N_BL_ET__c)),
+                NOT(ISBLANK(N_CL_ET__c))
+            ),
+            OR(
+                TEXT(CYCLE_ID__r.Pregnancy_Outcome__c ) = &quot;Clinical Pregnancy&quot;,
+                TEXT(CYCLE_ID__r.Pregnancy_Outcome__c ) = &quot;Live Birth&quot;,
+                TEXT(CYCLE_ID__r.Pregnancy_Outcome__c ) = &quot;Under 20 Week Miscarriage&quot;,
+                TEXT(CYCLE_ID__r.Pregnancy_Outcome__c ) = &quot;Over 20 Week Miscarriage&quot;,
+                TEXT(CYCLE_ID__r.Pregnancy_Outcome__c ) = &quot;Still Birth&quot;,
+                TEXT(CYCLE_ID__r.Pregnancy_Outcome__c ) = &quot;Pregnancy Terminated&quot;
+            )
+        ),
+        &quot;y&quot;,
+        IF(
+            AND(
+                ISBLANK(DATE_ET__c),
+                ISBLANK(IUI_DATE__c),
+                N_BL_ET__c = 0,
+                N_CL_ET__c = 0
+            ),
+            null,
+            &quot;n&quot;
+        )
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>PR_CLIN</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

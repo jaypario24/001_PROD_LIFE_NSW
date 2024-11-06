@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Roll_up_of_Result_I_Z__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    ISBLANK(TEXT(Karyotype_Picklist__c)) = FALSE,
+    &quot;Karyotype: &quot; &amp; TEXT(Karyotype_Picklist__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Karyotype__c) = FALSE,  /* Karyotype__c is a text field */
+    &quot;Karyotype Comments: &quot; &amp; Karyotype__c &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(LH__c) = FALSE,
+    &quot;LH: &quot; &amp; TEXT(LH__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Lupus_Anticoagulant__c) = FALSE,
+    &quot;Lupus Anticoagulant: &quot; &amp; TEXT(Lupus_Anticoagulant__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Number_of_Heart_Beats__c) = FALSE,
+    &quot;Number of Heart Beats: &quot; &amp; TEXT(Number_of_Heart_Beats__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Number_of_Sacs__c) = FALSE,
+    &quot;Number of Sacs: &quot; &amp; TEXT(Number_of_Sacs__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(P4__c) = FALSE,
+    &quot;P4: &quot; &amp; TEXT(P4__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Prolactin__c) = FALSE,
+    &quot;Prolactin: &quot; &amp; TEXT(Prolactin__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Protein_C_Level__c) = FALSE,
+    &quot;Protein C Level: &quot; &amp; TEXT(Protein_C_Level__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Protein_S_Level__c) = FALSE,
+    &quot;Protein S Level: &quot; &amp; TEXT(Protein_S_Level__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Prothrombin20210a_gene_defect__c) = FALSE,
+    &quot;Prothrombin 20210a Gene Defect: &quot; &amp; TEXT(Prothrombin20210a_gene_defect__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(TEXT(RPR_Syphilis__c)) = FALSE,
+    &quot;Syphilis: &quot; &amp; TEXT(RPR_Syphilis__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(TEXT(Rubella_German_Measles__c)) = FALSE,
+    &quot;Rubella: &quot; &amp; TEXT(Rubella_German_Measles__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(SMA_Genetic_Screening__c) = FALSE,
+    &quot;SMA Genetic Screening: &quot; &amp; TEXT(SMA_Genetic_Screening__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Scan_ET__c) = FALSE,
+    &quot;Endometrium: &quot; &amp; TEXT(Scan_ET__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Se_Testosterone__c) = FALSE,
+    &quot;Se Testosterone: &quot; &amp; TEXT(Se_Testosterone__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(TEXT(Semen_Analysis__c)) = FALSE,
+    &quot;Semen Analysis: &quot; &amp; TEXT(Semen_Analysis__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(TSH__c) = FALSE,
+    &quot;TSH: &quot; &amp; TEXT(TSH__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Thyroid_Peroxidase_Antibodies__c) = FALSE,
+    &quot;Thyroid Peroxidase Antibodies: &quot; &amp; TEXT(Thyroid_Peroxidase_Antibodies__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+
+IF(
+    ISBLANK(Varicella__c) = FALSE,  /* Varicella__c is a text field */
+    &quot;Varicella: &quot; &amp; Varicella__c &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Vitamin_D_level__c) = FALSE,
+    &quot;Vitamin D Level: &quot; &amp; TEXT(Vitamin_D_level__c) &amp; &quot; &quot;,
+    &quot;&quot;
+) &amp;
+
+IF(
+    ISBLANK(Y_Chromosome_Microdeletion_Assay__c) = FALSE,
+    &quot;Y Chromosome Microdeletion Assay: &quot; &amp; TEXT(Y_Chromosome_Microdeletion_Assay__c) &amp; &quot; &quot;,
+    &quot;&quot;
+)</formula>
+    <label>Roll up of Result I-Z</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

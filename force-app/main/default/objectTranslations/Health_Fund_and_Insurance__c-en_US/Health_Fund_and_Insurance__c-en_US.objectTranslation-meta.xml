@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Health Fund and Insurance</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Health Funds and Insurance</value>
+    </caseValues>
+    <layouts>
+        <layout>DVA</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Health Fund and Insurance Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- DVA --></label>
+        <name>DVA</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Private Health Fund --></label>
+        <name>Private_Health_Fund</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Too long, maximum 2 characters. --></errorMessage>
+        <name>Character_Limit</name>
+    </validationRules>
+</CustomObjectTranslation>

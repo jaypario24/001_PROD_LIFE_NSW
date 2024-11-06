@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ANZARD Data</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ANZARD Data</value>
+    </caseValues>
+    <layouts>
+        <layout>ANZARD Data Layout</layout>
+        <sections>
+            <label><!-- Clinic Details --></label>
+            <section>Clinic Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Cycle Details --></label>
+            <section>Cycle Details</section>
+        </sections>
+        <sections>
+            <label><!-- Donation and Recipient Details --></label>
+            <section>Donation and Recipient Details</section>
+        </sections>
+        <sections>
+            <label><!-- Embryo Cryo Details --></label>
+            <section>Embryo Cryo Details</section>
+        </sections>
+        <sections>
+            <label><!-- Fertilisation Details --></label>
+            <section>Fertilisation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Live Birth Outcomes --></label>
+            <section>Live Birth Outcomes</section>
+        </sections>
+        <sections>
+            <label><!-- OPU and SP Details --></label>
+            <section>OPU and SP Details</section>
+        </sections>
+        <sections>
+            <label><!-- Oocyte Cryo Details --></label>
+            <section>Oocyte Cryo Details</section>
+        </sections>
+        <sections>
+            <label><!-- PGT Infromation --></label>
+            <section>PGT Infromation</section>
+        </sections>
+        <sections>
+            <label><!-- Parent and Intending Parents Details --></label>
+            <section>Parent and Intending Parents Details</section>
+        </sections>
+        <sections>
+            <label><!-- Pregnancy Details --></label>
+            <section>Pregnancy Details</section>
+        </sections>
+        <sections>
+            <label><!-- Transfer Details --></label>
+            <section>Transfer Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Update Demographics --></label>
+        <name>Update_Demographics</name>
+    </quickActions>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

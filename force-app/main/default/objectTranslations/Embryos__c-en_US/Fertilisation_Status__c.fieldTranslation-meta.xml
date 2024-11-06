@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Fertilisation Status --></label>
+    <name>Fertilisation_Status__c</name>
+    <picklistValues>
+        <masterLabel>1PN</masterLabel>
+        <translation><!-- 1PN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2PN</masterLabel>
+        <translation><!-- 2PN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3PN</masterLabel>
+        <translation><!-- 3PN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4+PN</masterLabel>
+        <translation><!-- 4+PN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DEG</masterLabel>
+        <translation><!-- DEG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EZ</masterLabel>
+        <translation><!-- EZ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Giant</masterLabel>
+        <translation><!-- Giant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NF</masterLabel>
+        <translation><!-- NF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NF –&gt; 2PN</masterLabel>
+        <translation><!-- NF –&gt; 2PN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OoZ</masterLabel>
+        <translation><!-- OoZ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

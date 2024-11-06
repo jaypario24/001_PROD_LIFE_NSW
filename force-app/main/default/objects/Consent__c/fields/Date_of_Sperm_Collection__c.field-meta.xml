@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_of_Sperm_Collection__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This data is required for consent; 10.9 Withdrawing Consent to Donate Embryos or Sperm. Please enter the desired value before sending to the patient (or this field will be blank).</inlineHelpText>
+    <label>Date of Sperm Collection</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

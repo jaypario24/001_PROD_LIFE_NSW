@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Cause_of_Infertility_Diagnosis__c</fullName>
+    <description>ANZARD LABEL: MALE_DIAG</description>
+    <externalId>false</externalId>
+    <label>Primary Cause of Male Infertility</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 = Idiopathic (unexplained)</fullName>
+                <default>false</default>
+                <label>1 = Idiopathic (unexplained)</label>
+            </value>
+            <value>
+                <fullName>2 = Genetic - Klinefelter</fullName>
+                <default>false</default>
+                <label>2 = Genetic - Klinefelter</label>
+            </value>
+            <value>
+                <fullName>3 = Genetic Y Deletion</fullName>
+                <default>false</default>
+                <label>3 = Genetic Y Deletion</label>
+            </value>
+            <value>
+                <fullName>4 = Genetic - Other aneupoidies, single gene.</fullName>
+                <default>false</default>
+                <label>4 = Genetic - Other aneupoidies, single gene.</label>
+            </value>
+            <value>
+                <fullName>5 = Testis Damage - Cancer Treatment</fullName>
+                <default>false</default>
+                <label>5 = Testis Damage - Cancer Treatment</label>
+            </value>
+            <value>
+                <fullName>6 = Testis Damage - Other (incl.past/recent cryptorchidism, vascular, infective, trauma)</fullName>
+                <default>false</default>
+                <label>6 = Testis Damage - Other (incl.past/recent cryptorchidism, vascular, infective, trauma)</label>
+            </value>
+            <value>
+                <fullName>7 = Gonadotrophin Deficiency</fullName>
+                <default>false</default>
+                <label>7 = Gonadotrophin Deficiency</label>
+            </value>
+            <value>
+                <fullName>8 = Vasectomy</fullName>
+                <default>false</default>
+                <label>8 = Vasectomy</label>
+            </value>
+            <value>
+                <fullName>9 = Congenital absence of the Vas Deferens/Cystic Fibrosis</fullName>
+                <default>false</default>
+                <label>9 = Congenital absence of the Vas Deferens/Cystic Fibrosis</label>
+            </value>
+            <value>
+                <fullName>10 = Obstructive Disorder (Other)</fullName>
+                <default>false</default>
+                <label>10 = Obstructive Disorder (Other)</label>
+            </value>
+            <value>
+                <fullName>11 = Erectile Dysfunction incl. Psychosexual</fullName>
+                <default>false</default>
+                <label>11 = Erectile Dysfunction incl. Psychosexual</label>
+            </value>
+            <value>
+                <fullName>12 = Ejaculatory Disorders (incl. Spinal Injury, Retrograde and Anejaculation.)</fullName>
+                <default>false</default>
+                <label>12 = Ejaculatory Disorders (incl. Spinal Injury, Retrograde and Anejaculation.)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

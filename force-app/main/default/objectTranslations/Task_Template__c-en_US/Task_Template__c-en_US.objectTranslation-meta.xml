@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>System Template</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>System Templates</value>
+    </caseValues>
+    <layouts>
+        <layout>Checklist</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Event Triggered Template</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Letter Template</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Medication Templates</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Pathology Templates</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Protocol Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>T&amp;C&apos;s</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Task Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Text Template</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Template Item --></label>
+        <name>Add_Template_Item</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Cycle Creation Checklist Template --></label>
+        <name>Checklist_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Event Triggered Template --></label>
+        <name>Event_Triggered_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Letter --></label>
+        <name>Letter</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Medication Templates --></label>
+        <name>Medication_Templates</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Pathology Templates --></label>
+        <name>Pathology_Templates</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Patient Checklist Template --></label>
+        <name>Patient_Checklist_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Protocol Templates --></label>
+        <name>Protocol_Templates</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Service Item Templates --></label>
+        <name>Service_Item_Templates</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Task Templates --></label>
+        <name>Task_Templates</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Terms and Conditions --></label>
+        <name>Terms_and_Conditions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Text Template --></label>
+        <name>Text_Template</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BAB4_ABN__c</fullName>
+    <description>Abnormalities in fourth-born baby.</description>
+    <externalId>false</externalId>
+    <formula>CYCLE_ID__r.Abnormalities_in_Fourth_Born_Baby__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>BAB4_ABN</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

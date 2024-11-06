@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tracking_Page_View_Preference__c</fullName>
+    <externalId>false</externalId>
+    <label>Tracking Page View Preference</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Compact</fullName>
+                <default>false</default>
+                <label>Compact</label>
+            </value>
+            <value>
+                <fullName>Results View</fullName>
+                <default>false</default>
+                <label>Results View</label>
+            </value>
+            <value>
+                <fullName>Expanded View</fullName>
+                <default>false</default>
+                <label>Expanded View</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

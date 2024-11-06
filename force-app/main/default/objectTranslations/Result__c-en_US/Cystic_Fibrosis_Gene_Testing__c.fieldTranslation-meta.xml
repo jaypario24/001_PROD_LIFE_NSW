@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cystic Fibrosis Gene Testing --></label>
+    <name>Cystic_Fibrosis_Gene_Testing__c</name>
+</CustomFieldTranslation>

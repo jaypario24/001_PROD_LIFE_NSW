@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field will only fill when consent signed and consent attached are ticked and validated. --></help>
+    <label><!-- Valid Consent --></label>
+    <name>Valid_Consent__c</name>
+</CustomFieldTranslation>

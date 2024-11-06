@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>docb__Attach_File__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This MUST be checked to fax your document, or send it as an email *attachment*. If you&apos;re only emailing a link to the merged Google Doc (located in the &quot;Save URL to Salesforce Field&quot; above), then you can leave this unchecked to save on storage space.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This MUST be checked to fax your document, or send it as an email *attachment*. If you&apos;re only emailing a link to the merged Google Doc (located in the &quot;Save URL to Salesforce Field&quot; above), then you can leave this unchecked to save on storage space.</inlineHelpText>
+    <label>Attach File</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Hep C Antigen (Antibody To) --></label>
+    <name>Hepatitis_C__c</name>
+    <picklistValues>
+        <masterLabel>Detected</masterLabel>
+        <translation><!-- Detected --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Detected</masterLabel>
+        <translation><!-- Not Detected --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

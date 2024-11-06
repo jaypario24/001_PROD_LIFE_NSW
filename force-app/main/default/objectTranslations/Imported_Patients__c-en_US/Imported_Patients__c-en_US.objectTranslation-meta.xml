@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Imported Patients</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Imported Patients</value>
+    </caseValues>
+    <quickActions>
+        <label><!-- Import Patient --></label>
+        <name>Import_Patient</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

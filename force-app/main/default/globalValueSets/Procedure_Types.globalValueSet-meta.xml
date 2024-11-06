@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>OPU</fullName>
+        <default>false</default>
+        <label>OPU</label>
+    </customValue>
+    <customValue>
+        <fullName>Transfer</fullName>
+        <default>false</default>
+        <label>Transfer</label>
+    </customValue>
+    <customValue>
+        <fullName>IUI</fullName>
+        <default>false</default>
+        <label>IUI</label>
+    </customValue>
+    <customValue>
+        <fullName>PRP</fullName>
+        <default>false</default>
+        <label>PRP</label>
+    </customValue>
+    <customValue>
+        <fullName>Filgrastim</fullName>
+        <default>false</default>
+        <label>Filgrastim</label>
+    </customValue>
+    <customValue>
+        <fullName>Egg Thaw - VOT</fullName>
+        <default>false</default>
+        <label>Egg Thaw - VOT</label>
+    </customValue>
+    <customValue>
+        <fullName>PESA</fullName>
+        <default>false</default>
+        <label>PESA</label>
+    </customValue>
+    <customValue>
+        <fullName>TESA</fullName>
+        <default>false</default>
+        <label>TESA</label>
+    </customValue>
+    <masterLabel>Procedure Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1 = No</fullName>
+        <default>false</default>
+        <label>1 = No</label>
+    </customValue>
+    <customValue>
+        <fullName>2 = Yes</fullName>
+        <default>false</default>
+        <label>2 = Yes</label>
+    </customValue>
+    <masterLabel>ANZARD 1=No 2=Yes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

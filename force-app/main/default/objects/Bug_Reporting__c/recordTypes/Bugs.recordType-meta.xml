@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bugs</fullName>
+    <active>true</active>
+    <label>Bugs</label>
+    <picklistValues>
+        <picklist>Alloacted_Dev__c</picklist>
+        <values>
+            <fullName>GL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MDC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Backlog_Type__c</picklist>
+        <values>
+            <fullName>Bug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Feature</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Awaiting Client Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Urgency__c</picklist>
+        <values>
+            <fullName>Normal %28Can be resolved with Weeks%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urgent %28Mission Critical Must be resolved with 2 Days%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

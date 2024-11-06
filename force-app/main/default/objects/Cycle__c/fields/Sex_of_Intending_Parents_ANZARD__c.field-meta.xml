@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sex_of_Intending_Parents_ANZARD__c</fullName>
+    <externalId>false</externalId>
+    <label>Sex of Intending Parents ANZARD</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 = A female-male couple</fullName>
+                <default>false</default>
+                <label>1 = A female-male couple</label>
+            </value>
+            <value>
+                <fullName>2 = A single female</fullName>
+                <default>false</default>
+                <label>2 = A single female</label>
+            </value>
+            <value>
+                <fullName>3 = A female-female couple</fullName>
+                <default>false</default>
+                <label>3 = A female-female couple</label>
+            </value>
+            <value>
+                <fullName>4 = A single male</fullName>
+                <default>false</default>
+                <label>4 = A single male</label>
+            </value>
+            <value>
+                <fullName>5 = A male-male couple</fullName>
+                <default>false</default>
+                <label>5 = A male-male couple</label>
+            </value>
+            <value>
+                <fullName>6 = Unknown – only for use in oocyte donation cycles to unknown intending</fullName>
+                <default>false</default>
+                <label>6 = Unknown – only for use in oocyte donation cycles to unknown intending</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

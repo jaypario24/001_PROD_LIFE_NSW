@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PGT_A_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>PGT A Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Recurrent Miscarriage</fullName>
+                <default>false</default>
+                <label>Recurrent Miscarriage</label>
+            </value>
+            <value>
+                <fullName>Recurrent Implantation Failure</fullName>
+                <default>false</default>
+                <label>Recurrent Implantation Failure</label>
+            </value>
+            <value>
+                <fullName>Previous Abnormal Pregnancy</fullName>
+                <default>false</default>
+                <label>Previous Abnormal Pregnancy</label>
+            </value>
+            <value>
+                <fullName>Patient Choice</fullName>
+                <default>false</default>
+                <label>Patient Choice</label>
+            </value>
+            <value>
+                <fullName>Age</fullName>
+                <default>false</default>
+                <label>Age</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

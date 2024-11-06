@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clinic_Logo__c</fullName>
+    <description>Displays the Clinic&apos;s logo on the Record Page</description>
+    <externalId>false</externalId>
+    <label>Clinic Logo</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

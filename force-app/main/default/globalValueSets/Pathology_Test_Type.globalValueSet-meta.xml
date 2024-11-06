@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Blood</fullName>
+        <default>false</default>
+        <label>Blood</label>
+    </customValue>
+    <customValue>
+        <fullName>Scan</fullName>
+        <default>false</default>
+        <label>Scan</label>
+    </customValue>
+    <customValue>
+        <fullName>Infectious Screen</fullName>
+        <default>false</default>
+        <label>Infectious Screen</label>
+    </customValue>
+    <customValue>
+        <fullName>Genetic Screen</fullName>
+        <default>false</default>
+        <label>Genetic Screen</label>
+    </customValue>
+    <masterLabel>Pathology Test Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

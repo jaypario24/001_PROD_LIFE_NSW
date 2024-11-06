@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows for the creation of a semen sample for a cycle or the undertaking of a semen analysis. Links to Semen Freeze Flow.</description>
+    <masterLabel>Create Semen Sample (DEPRECIATED)</masterLabel>
+</FlowDefinition>

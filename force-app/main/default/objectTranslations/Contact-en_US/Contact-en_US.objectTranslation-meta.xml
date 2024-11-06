@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Patient or Donor</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Patients &amp; Donors</value>
+    </caseValues>
+    <layouts>
+        <layout>Donor Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Known Donor</layout>
+        <sections>
+            <label><!-- Children Information --></label>
+            <section>Children Information</section>
+        </sections>
+        <sections>
+            <label><!-- Confidential Donor Contact Information --></label>
+            <section>Confidential Donor Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Confidential Donor Information --></label>
+            <section>Confidential Donor Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Donation History --></label>
+            <section>Donation History</section>
+        </sections>
+        <sections>
+            <label><!-- Donor&apos;s Partner Information --></label>
+            <section>Donor&apos;s Partner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Family History --></label>
+            <section>Family History</section>
+        </sections>
+        <sections>
+            <label><!-- Other Information --></label>
+            <section>Other Information</section>
+        </sections>
+        <sections>
+            <label><!-- Sample Information --></label>
+            <section>Sample Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Patient Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Consult Note --></label>
+        <name>Add_Consult_Note</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Diagnosis --></label>
+        <name>Add_Diagnosis</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Document to Record --></label>
+        <name>Add_Document_to_Record</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Letter --></label>
+        <name>Add_Letter</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Past Procedure --></label>
+        <name>Add_Past_Procedure</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Patient History --></label>
+        <name>Add_Patient_History</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Referral --></label>
+        <name>Add_Referral</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Results --></label>
+        <name>Add_Results</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Script --></label>
+        <name>Add_Script</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add a Clinical Note (Patient File ONLY) --></label>
+        <name>Add_a_Clinical_Note</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Book Appointments --></label>
+        <name>Book_Appointments</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Convert to Unknown Donor --></label>
+        <name>Convert_to_Unknown_Donor</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Invoice --></label>
+        <name>Create_Invoice</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log Semen Analysis/Out of Cycle Freeze --></label>
+        <name>Create_Semen_Sample</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Import Genetic Material --></label>
+        <name>Import_Genetic_Material</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Manage Documents --></label>
+        <name>Manage_Documents</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Cycle --></label>
+        <name>New_Cycle</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Pathology Request --></label>
+        <name>New_Pathology_Request</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>New_To_Do</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Partner --></label>
+        <name>Partner</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Partner --></label>
+        <name>Partner_Update</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- RI Witness --></label>
+        <name>RI_Witness</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Record Health Insurance Info --></label>
+        <name>Record_Health_Insurance</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send SMS --></label>
+        <name>Send_SMS</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Take Prepayment --></label>
+        <name>Take_Prepayment</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- External Contacts --></label>
+        <name>External_Contacts</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Known Donor --></label>
+        <name>Known_Donor</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Patient --></label>
+        <name>Patient</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Surrogate --></label>
+        <name>Surrogate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Unknown Donor --></label>
+        <name>Unknown_Donor</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The date must begin with 01 (Start of Month) --></errorMessage>
+        <name>First_Day_of_Month</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Medicare number is not 10 digits --></errorMessage>
+        <name>Must_be_10_Digits</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The date format must be Month/Year 01/22 --></errorMessage>
+        <name>Validate_Medicare_Date</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Send_SMS --></label>
+        <name>ClickSendSMS__Send_SMS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_SMS_to_All --></label>
+        <name>ClickSendSMS__Send_SMS_to_All</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_SMS_to_Selected --></label>
+        <name>ClickSendSMS__Send_SMS_to_Selected</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_SMS_to_Selected_Contacts --></label>
+        <name>ClickSendSMS__Send_SMS_to_Selected_Contacts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- FT_Generate_Documents_Lightning --></label>
+        <name>Form_Builder__FT_Generate_Documents_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- FT_Generate_Multiple_PDF --></label>
+        <name>Form_Builder__FT_Generate_Multiple_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- FT_Generate_PDF --></label>
+        <name>Form_Builder__FT_Generate_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Titan_Forms_Lite --></label>
+        <name>Form_Builder__Titan_Forms_Lite</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Titan_Sign_Wizard --></label>
+        <name>Form_Builder__Titan_Sign_Wizard</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Run_WebServices --></label>
+        <name>webservicer__Run_WebServices</name>
+    </webLinks>
+</CustomObjectTranslation>

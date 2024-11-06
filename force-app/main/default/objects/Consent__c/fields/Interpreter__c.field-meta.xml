@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interpreter__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>This field applies to Consent 10.17 - Engagement of Healthcare Interpreter. You must first ensure the interpreter has been added to the system as a business contact (with a valid email address attached to it), then search their name here and save this record before generating the consent for it to reach them.</inlineHelpText>
+    <label>Interpreter</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Contact.RecordType.Id</field>
+            <operation>equals</operation>
+            <value>0125g000000affYAAQ</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Consents (Interpreter Lookup)</relationshipLabel>
+    <relationshipName>Consents2</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allowed_to_Process_Financials__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Please tick this only if the user should be allowed to process financials/medicare claims</description>
+    <externalId>false</externalId>
+    <label>Allowed to Process Financials?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

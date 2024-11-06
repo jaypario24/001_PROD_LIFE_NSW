@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Protocol_Templates</fullName>
+    <active>true</active>
+    <label>Protocol Templates</label>
+    <picklistValues>
+        <picklist>Cycle_Type_Multi_Select__c</picklist>
+        <values>
+            <fullName>Egg Freeze Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FET Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fresh Egg Donor Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IUI Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IVF Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lab Only Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OI Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VOT Cycle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cycle_Type__c</picklist>
+        <values>
+            <fullName>Egg Freeze Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FET Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fresh Egg Donor Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IUI Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IVF Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lab Only Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OI Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VOT Cycle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trigger_Event__c</picklist>
+        <values>
+            <fullName>Adverse Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biopsy Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cell Wash Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change Over</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Day 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Day 2 Embryo Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Day 3 Embryo Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Day 4 Embryo Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Day 5 Embryo Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Day 6 Embryo Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Day 7 Embryo Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denuding%2FCoc Trimming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Egg Donation Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Egg Insemination Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Egg Thaw Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Egg Vitrification Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Embryo Thaw Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Embryo Transfer Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Embryo Vitrification Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Failed Embryo Transfer Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fert Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follicle Scan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glue Move</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IUI Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAH Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Live Birth Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OPU Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OPU Prep Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post Thaw Expansion Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pregnancy Scan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pregnancy Test</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semen Freeze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semen Prep</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semen Thaw</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Testicular Biopsy Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trigger</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

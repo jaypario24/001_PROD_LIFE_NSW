@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- &quot;DD/MM/YYYY&quot; Format --></help>
+    <label><!-- Insurance Expiry Date --></label>
+    <name>Insurance_Expiry_Date__c</name>
+</CustomFieldTranslation>

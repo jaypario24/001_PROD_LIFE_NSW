@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>true</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>GENdoc6_NSW_Consent_to_Freeze_Eggs</masterLabel>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>GENdoc6 (NSW)_Consent to Freeze Eggs_1_28062024.pdf</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

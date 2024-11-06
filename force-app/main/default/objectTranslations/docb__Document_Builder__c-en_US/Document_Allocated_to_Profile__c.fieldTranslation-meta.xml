@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Document Allocated to Profile --></label>
+    <name>Document_Allocated_to_Profile__c</name>
+    <picklistValues>
+        <masterLabel>Administration</masterLabel>
+        <translation><!-- Administration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Doctors</masterLabel>
+        <translation><!-- Doctors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratory</masterLabel>
+        <translation><!-- Laboratory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nursing</masterLabel>
+        <translation><!-- Nursing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pario System Administrators</masterLabel>
+        <translation><!-- Pario System Administrators --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>System Administrator</masterLabel>
+        <translation><!-- System Administrator --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

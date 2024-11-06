@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cycle_Type_ANZARD__c</fullName>
+    <externalId>false</externalId>
+    <label>Cycle Type ANZARD</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 = Autologous: Female-male couple, single female, female-female couple</fullName>
+                <default>false</default>
+                <label>1 = Autologous: Female-male couple, single female, female-female couple</label>
+            </value>
+            <value>
+                <fullName>2 = Non-autologous: Female-female couple</fullName>
+                <default>false</default>
+                <label>2 = Non-autologous: Female-female couple</label>
+            </value>
+            <value>
+                <fullName>3 = Non-autologous: Oocyte/embryo donation</fullName>
+                <default>false</default>
+                <label>3 = Non-autologous: Oocyte/embryo donation</label>
+            </value>
+            <value>
+                <fullName>4 = Non-autologous: Oocyte recipient</fullName>
+                <default>false</default>
+                <label>4 = Non-autologous: Oocyte recipient</label>
+            </value>
+            <value>
+                <fullName>5 = Non-autologous: Embryo recipient</fullName>
+                <default>false</default>
+                <label>5 = Non-autologous: Embryo recipient</label>
+            </value>
+            <value>
+                <fullName>6 = Surrogacy – intending parent(s): Oocyte/embryo provision</fullName>
+                <default>false</default>
+                <label>6 = Surrogacy – intending parent(s): Oocyte/embryo provision</label>
+            </value>
+            <value>
+                <fullName>7 = Surrogacy – gestational carrier: Transfer (or thawing with the intention of transfer)</fullName>
+                <default>false</default>
+                <label>7 = Surrogacy – gestational carrier: Transfer (or thawing with the intention of transfer)</label>
+            </value>
+            <value>
+                <fullName>8 = Laboratory-only cycle</fullName>
+                <default>false</default>
+                <label>8 = Laboratory-only cycle</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

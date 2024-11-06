@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Financial Consent Type --></label>
+    <name>Financial_Consent_Type__c</name>
+    <picklistValues>
+        <masterLabel>Egg Freeze Cycle</masterLabel>
+        <translation><!-- Egg Freeze Cycle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FET Cycle</masterLabel>
+        <translation><!-- FET Cycle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IUI Cycle</masterLabel>
+        <translation><!-- IUI Cycle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OI Cycle</masterLabel>
+        <translation><!-- OI Cycle --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

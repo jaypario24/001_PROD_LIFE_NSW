@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Consent</fullName>
+    <active>true</active>
+    <label>Other Consent</label>
+    <picklistValues>
+        <picklist>Consent_Type__c</picklist>
+        <values>
+            <fullName>Cycle Consent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disposal Consent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Consent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc1 - Patient Acknowledgement of Receipt of Information Pertaining to Fertilisation In Vitro and Embryo Transfer - %28annually%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc1 Informed consent process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc16 - Consent for Superovulation Therapy - %28Annually%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc17 - Consent for IUI - %28120 days%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc18 - Witnessing Consent to Semen Preparation for IUI Procedure - %28Once%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc19 - Lifestyle Declaration for Egg Sperm and Embryo Donors - %28Annually - unless they%E2%80%99re donating to a new recipient%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc2 -ART Assisted Reproductive Technology Procedures - %28120 days%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc20 - Consent to Donated Eggs - %28120 days%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc21 - Consent to Donate Sperm - %28Once - unless they%E2%80%99re donating to a new recipient%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc22 - Consent to Donate Embryos - %28Once - unless they%E2%80%99re donating to a new recipient%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc23 - Consent to Receive Donor Eggs - %28120 days%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc24 - Consent to Receive Donor Sperm - %28Annually if anonymous donor%2Fonce if known%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc26 - Consent to Receive Donor Embryos - %28Once %E2%80%93 unless donor changes%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc27 - Donor Medical Condition Declaration - %28Once%2C only if there is a risk declared%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc3 - Consent to Freeze and Store Embryos - %28Annually%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc4 - Consent to Thaw and Transfer Frozen Embryos - %28120 days%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc40 - TESA%2FPESA Consent - %28120 days%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc5 - Consent to Freeze and Store Sperm%2FTesticular Tissue - %28Annually%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc57b - Consent to Embryo Biopsy %26 PGT-A for Aneuploidy - %28120 days%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc58b - Consent to Embryo Biopsey %26PGT for Chromosome Rearrangements %26 Aneuploidy %E2%80%93 %28120 days%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc5B - Consent to Freeze Sperm for Donation - %28Once - unless they%E2%80%99re donating to a new recipient%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc5c - Consent to Ongoing Storage of Known Donated Sperm - %28Once%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc6 - Consent to Freeze and Store Oocytes %2F Ovarian Tissue - %28Annually%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc63B - Consent to Embryo Biopsey %26PGT A for Aneuploidy %26 Sex Selection %E2%80%93 %28120 days%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc66b - Consent to Embryo Biopsey %26PGT for single Gene Disorders %26 Aneuploidy - %28120 days%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc71 - Consent to Feasibility Testing for PGD for Single Gene Disorders %E2%80%93 GENdoc71 %28120 days%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc72 - Confirmation of Personal Details and Fertility History - %28Annually%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENdoc84 - Sperm Donor Genetic Test Report Acknowledgement - %28once%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Principal Consents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Registration Form</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Financial_Consent_Type__c</picklist>
+        <values>
+            <fullName>Egg Freeze Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FET Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IUI Cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OI Cycle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

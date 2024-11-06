@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Rubella --></label>
+    <name>Rubella_German_Measles__c</name>
+    <picklistValues>
+        <masterLabel>Immune</masterLabel>
+        <translation><!-- Immune --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Immune</masterLabel>
+        <translation><!-- Not Immune --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

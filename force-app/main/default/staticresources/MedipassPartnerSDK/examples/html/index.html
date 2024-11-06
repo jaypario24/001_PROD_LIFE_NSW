@@ -1,0 +1,197 @@
+<html>
+  <head>
+    <title>Medipass Transaction SDK - Consumer Example</title>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/@medipass/partner-sdk/umd/@medipass/partner-sdk.min.js"></script>
+  </head>
+  <body>
+    <h1>Awesome PMS</h1>
+    <button id="process-payment">Process payment</button>
+
+    <script>
+      document.getElementById('process-payment').addEventListener('click', () => {
+        MedipassTransactionSDK.setConfig({
+          env: MedipassTransactionSDK.ENVS.LOCAL,
+
+          apiKey: '5c6222ff55ce4e0047c2d1d4:i6ZT9ckJiMVnJXOn4X6NLR81_QjTKPLfUhtKUJ4E62s', // HICAPS/Medicare
+          // apiKey: '5c78a7bd84c5c60047a7ca0f:J6W9eSRPg0gs8LgI2xWEOVG-7YMTzufgRtQwc0NfCOQ', // GHS
+          // apiKey: '5c8b11385d73d6005590d040:-p9FNJtTB_9fWR7BMxu-vJZVLiQYZ-wyetLzrHzyOxA',
+
+            appId: 'web-application',
+
+          appVersion: '1.0.0'
+        }).then(() => console.log('test', MedipassTransactionSDK.business));
+
+        console.log(MedipassTransactionSDK.business);
+
+        MedipassTransactionSDK.renderCreateTransaction(
+          {
+            funder: MedipassTransactionSDK.FUNDERS.HICAPS,
+            // funder: MedipassTransactionSDK.FUNDERS.MEDICARE,
+            // funder: MedipassTransactionSDK.FUNDERS.GHS,
+            // funder: MedipassTransactionSDK.FUNDERS.PATIENT_FUNDED,
+
+            // providerNumber: '2409661B', // Medicare
+            providerNumber: '21341231', // HICAPS
+            // providerNumber: '062513BK', // GHS
+
+            invoiceReference: '00000088',
+
+            memberId: '5b03b5884d23b7003ea5dd60',
+            // or
+            // patient: {
+            //   firstName: 'Claudia',
+            //   lastName: 'Connor',
+            //   dob: '1991-09-29',
+            //   mobile: '0400123123'
+            //   accountNumber: '6950507481', // Medicare
+            //   reference: '1' // Medicare
+            //   accountNumber: '8566645', // GHS
+            // },
+
+            // HICAPS
+            claimableItems: [
+              {
+                itemCode: '1001',
+                price: '$2.00'
+              },
+              {
+                serviceDateString: '2018-12-20',
+                itemCode: '1002',
+                price: '$10.00'
+              }
+              // {
+              //   itemCode: '18378123'
+              // }
+            ],
+
+            // Medicare - non bulk billed
+            // claimableItems: [
+            //   {
+            // 	itemCode: '160',
+            // 	serviceDateString: '2015-12-12',
+            // 	price: '$10.00'
+            //   },
+            //   { itemCode: '161' },
+            //   { itemCode: '124356235' }
+            // ],
+
+            // Medicare - bulk billed
+            // claimableItems: [
+            //   {
+            // 	itemCode: '104',
+            // 	serviceDateString: '2015-12-12'
+            //   },
+            //   { itemCode: '105' }
+            // ],
+
+            // GHS
+            // claimableItems: [
+            //   {
+            //     itemCode: '85011', // required
+            //     price: '$10.00',
+            //     quantity: 2,
+            //     serviceDateString: '2016-12-12',
+            //     isTaxable: true
+            //   },
+            //   { itemCode: '85012', price: '$15.00', quantity: 3, serviceDateString: '2016-12-12' }
+            // ]
+
+            // HICAPS
+            nonClaimableItems: [
+              {
+                description: 'Gatorade', price: '$2.50'
+              }
+            ],
+
+            webhooks: [
+              {
+                url: 'https://your-site.com/success',
+                event: 'memberApprovedInvoice',
+                method: 'POST',
+                headers: { hello: 'world' }
+              },
+              {
+                url: 'https://your-site.com/failure',
+                event: 'memberRejectedInvoice',
+                method: 'POST',
+                headers: { hello: 'world' }
+              }
+            ],
+
+            funderData: {
+              hicaps: {
+                patient: {
+                  healthFundCode: MedipassTransactionSDK.HEALTH_FUNDS.AHM
+                }
+              },
+              // medicare: {
+              //   isBulkBilled: false,
+              //   // claimantMemberId: '5b03b5884d23b7003ea5dd60'
+              //   claimant: {
+              //     firstName: 'Corazon',
+              //     lastName: 'Baxter',
+              //     dob: '1983-12-28',
+              //     accountNumber: '3950387651',
+              //     reference: '1',
+              //     mobile: '0400123124'
+              //   },
+              //   referral: {
+              //     providerNumber: '12341234',
+              //     providerName: 'Jake Moxey',
+              //     issueDateString: '2019-01-01',
+              //     period: MedipassTransactionSDK.GHS.REFERRAL_PERIODS.STANDARD
+              //   }
+            // },
+              // ghs: {
+              //   // isEmergencyTreatment: true,
+              //   // includesHospitalInpatientItems: true,
+              //   // failedToAttendClaim: true,
+              //   dan: 'J48116121' // can prepopulate firstName, lastName, epId & dob from `dan`
+              //   // referringJointHealthCentre: 'Alfred Hospital',
+              //   // referringMedicalOfficer: 'Joe Bloggs'
+              //   // noDan: true,
+              //   // noDanReason: 'Died',
+              //   // noEpId: true,
+              //   // noEpIdReason: '2',
+              // }
+            }
+          },
+          {
+            // env: 'local',
+
+            // apiKey: '5c6222ff55ce4e0047c2d1d4:i6ZT9ckJiMVnJXOn4X6NLR81_QjTKPLfUhtKUJ4E62s', // HICAPS/Medicare
+            // // apiKey: '5c78a7bd84c5c60047a7ca0f:J6W9eSRPg0gs8LgI2xWEOVG-7YMTzufgRtQwc0NfCOQ', // GHS
+            // // apiKey: '5c8b11385d73d6005590d040:-p9FNJtTB_9fWR7BMxu-vJZVLiQYZ-wyetLzrHzyOxA',
+
+            // appId: 'web-application',
+
+            // appVersion: '1.0.0',
+
+            onSuccess: data => {
+              console.log('Transaction submitted!', JSON.stringify(data));
+
+              let element = document.createElement('p');
+              element.innerText = 'Transaction submitted!';
+              document.body.appendChild(element);
+            },
+            onError: err => {
+              console.log('Transaction errored!', JSON.stringify(err));
+
+              let element = document.createElement('p');
+              element.innerText = 'Transaction errored!';
+              document.body.appendChild(element);
+            },
+            onCancel: () => {
+              console.log('Transaction cancelled');
+
+              let element = document.createElement('p');
+              element.innerText = 'Transaction cancelled.';
+              document.body.appendChild(element);
+            }
+          }
+        );
+      });
+    </script>
+  </body>
+</html>

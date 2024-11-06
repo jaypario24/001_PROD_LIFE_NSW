@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Ejaculate</fullName>
+        <default>false</default>
+        <label>Ejaculate</label>
+    </customValue>
+    <customValue>
+        <fullName>Frozen Sperm</fullName>
+        <default>false</default>
+        <label>Frozen Sperm</label>
+    </customValue>
+    <customValue>
+        <fullName>Retrograde</fullName>
+        <default>false</default>
+        <label>Retrograde</label>
+    </customValue>
+    <customValue>
+        <fullName>Aspirate</fullName>
+        <default>false</default>
+        <label>Aspirate</label>
+    </customValue>
+    <customValue>
+        <fullName>Open Biopsy</fullName>
+        <default>false</default>
+        <label>Open Biopsy</label>
+    </customValue>
+    <customValue>
+        <fullName>PESA</fullName>
+        <default>false</default>
+        <label>PESA</label>
+    </customValue>
+    <customValue>
+        <fullName>TESE</fullName>
+        <default>false</default>
+        <label>TESE</label>
+    </customValue>
+    <customValue>
+        <fullName>MicroTESE</fullName>
+        <default>false</default>
+        <label>MicroTESE</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknow</fullName>
+        <default>false</default>
+        <label>Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>Ejaculate with Frozen Backup</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ejaculate with Frozen Backup</label>
+    </customValue>
+    <customValue>
+        <fullName>Donor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Donor</label>
+    </customValue>
+    <customValue>
+        <fullName>PESA with Frozen Backup</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PESA with Frozen Backup</label>
+    </customValue>
+    <customValue>
+        <fullName>Ejaculate with Frequent Ejaculations Prior</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ejaculate with Frequent Ejaculations Prior</label>
+    </customValue>
+    <masterLabel>Semen Sample Production Method</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relationship_to_Female__c</fullName>
+    <externalId>false</externalId>
+    <label>Relationship to Female</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Open ID</fullName>
+                <default>false</default>
+                <label>Open ID</label>
+            </value>
+            <value>
+                <fullName>Know Donor</fullName>
+                <default>false</default>
+                <label>Known Donor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

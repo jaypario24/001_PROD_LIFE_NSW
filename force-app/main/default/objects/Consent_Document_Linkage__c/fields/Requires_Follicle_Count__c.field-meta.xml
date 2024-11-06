@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requires_Follicle_Count__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Please tick this box if applicable to selected consent. Applies to &quot;3.5 - More than 1 Lead Follicles Consent&quot;</description>
+    <externalId>false</externalId>
+    <label>Requires Follicle Count?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
